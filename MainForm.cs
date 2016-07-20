@@ -25,101 +25,104 @@ using System.Text.RegularExpressions;
 
 namespace OpenRa_GA
 {
-	/// <summary>
-	/// Summary description for MainForm.
-	/// </summary>
-	public class MainForm : System.Windows.Forms.Form
-	{
-        private int GenNumber;
-		private AForge.Controls.Chart chart;
-		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox minXBox;
-		private System.Windows.Forms.TextBox maxXBox;
-		private System.Windows.Forms.Label label2;
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.Container components = null;
-		private System.Windows.Forms.GroupBox groupBox2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.TextBox populationSizeBox;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox chromosomeLengthBox;
-		private System.Windows.Forms.CheckBox onlyBestCheck;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.TextBox iterationsBox;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Button startButton;
-		private System.Windows.Forms.Button stopButton;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.ComboBox selectionBox;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.ComboBox modeBox;
-		private System.Windows.Forms.GroupBox groupBox3;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.TextBox currentIterationBox;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.TextBox currentValueBox;
+    /// <summary>
+    /// Summary description for MainForm.
+    /// </summary>
+    public class MainForm : System.Windows.Forms.Form
+    {
+        private AForge.Controls.Chart chart;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox minXBox;
+        private System.Windows.Forms.TextBox maxXBox;
+        private System.Windows.Forms.Label label2;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.Container components = null;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox populationSizeBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox chromosomeLengthBox;
+        private System.Windows.Forms.CheckBox onlyBestCheck;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox iterationsBox;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox selectionBox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox modeBox;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox currentIterationBox;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox currentValueBox;
 
-		private UserFunction userFunction = new UserFunction( );
-		private int populationSize = 10;
-		private int chromosomeLength = 10;
-		private int iterations = 100;
-		private int selectionMethod = 1;
-		private int optimizationMode = 0;
-		private bool showOnlyBest = false;
+        private UserFunction userFunction = new UserFunction();
+        private int populationSize = 10;
+        private int chromosomeLength = 10;
+        private int iterations = 100;
+        private int selectionMethod = 1;
+        private int optimizationMode = 0;
+        private bool showOnlyBest = false;
 
-		private Thread workerThread = null;
+        private Thread workerThread = null;
         private TextBox textBox1;
         private volatile bool needToStop = false;
+        private TextBox GALaunch;
+        private Label label11;
+        private AForge.Range XRange;
 
-		// Constructor
-		public MainForm( )
-		{
-			//
-			// Required for Windows Form Designer support
-			//
-			InitializeComponent( );
+        // Constructor
+        public MainForm()
+        {
+            //
+            // Required for Windows Form Designer support
+            //
+            InitializeComponent();
 
-			// add data series to chart
-			chart.AddDataSeries( "function", Color.Red, Chart.SeriesType.Line, 1 );
-			chart.AddDataSeries( "solution", Color.Blue, Chart.SeriesType.Dots, 5 );
-			//UpdateChart( );
+            // add data series to chart
+            chart.AddDataSeries("function", Color.Red, Chart.SeriesType.Line, 1);
+            chart.AddDataSeries("solution", Color.Blue, Chart.SeriesType.Dots, 5);
+            //UpdateChart( );
 
-			// update controls
-			//minXBox.Text = userFunction.Min.ToString( );
-			//maxXBox.Text = userFunction.Max.ToString( );
-			selectionBox.SelectedIndex = selectionMethod;
-			modeBox.SelectedIndex = optimizationMode;
-			UpdateSettings( );
-		}
+            // update controls
+            //minXBox.Text = userFunction.Min.ToString( );
+            //maxXBox.Text = userFunction.Max.ToString( );
+            selectionBox.SelectedIndex = selectionMethod;
+            modeBox.SelectedIndex = optimizationMode;
+            UpdateSettings();
+        }
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		protected override void Dispose( bool disposing )
-		{
-			if( disposing )
-			{
-				if (components != null) 
-				{
-					components.Dispose();
-				}
-			}
-			base.Dispose( disposing );
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (components != null)
+                {
+                    components.Dispose();
+                }
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        #region Windows Form Designer generated code
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.chart = new AForge.Controls.Chart();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.minXBox = new System.Windows.Forms.TextBox();
             this.maxXBox = new System.Windows.Forms.TextBox();
@@ -144,7 +147,8 @@ namespace OpenRa_GA
             this.label10 = new System.Windows.Forms.Label();
             this.currentIterationBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.GALaunch = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -156,7 +160,7 @@ namespace OpenRa_GA
             this.chart.Name = "chart";
             this.chart.RangeX = ((AForge.Range)(resources.GetObject("chart.RangeX")));
             this.chart.RangeY = ((AForge.Range)(resources.GetObject("chart.RangeY")));
-            this.chart.Size = new System.Drawing.Size(280, 71);
+            this.chart.Size = new System.Drawing.Size(280, 202);
             this.chart.TabIndex = 0;
             // 
             // groupBox1
@@ -173,6 +177,14 @@ namespace OpenRa_GA
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Function";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 225);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(284, 62);
+            this.textBox1.TabIndex = 5;
             // 
             // label1
             // 
@@ -220,7 +232,7 @@ namespace OpenRa_GA
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(320, 10);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(185, 222);
+            this.groupBox2.Size = new System.Drawing.Size(185, 187);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Settings";
@@ -267,7 +279,7 @@ namespace OpenRa_GA
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(125, 175);
+            this.label6.Location = new System.Drawing.Point(125, 142);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 16);
             this.label6.TabIndex = 10;
@@ -275,14 +287,14 @@ namespace OpenRa_GA
             // 
             // iterationsBox
             // 
-            this.iterationsBox.Location = new System.Drawing.Point(125, 155);
+            this.iterationsBox.Location = new System.Drawing.Point(125, 122);
             this.iterationsBox.Name = "iterationsBox";
             this.iterationsBox.Size = new System.Drawing.Size(50, 20);
             this.iterationsBox.TabIndex = 9;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(10, 157);
+            this.label5.Location = new System.Drawing.Point(10, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 16);
             this.label5.TabIndex = 8;
@@ -290,7 +302,7 @@ namespace OpenRa_GA
             // 
             // onlyBestCheck
             // 
-            this.onlyBestCheck.Location = new System.Drawing.Point(10, 195);
+            this.onlyBestCheck.Location = new System.Drawing.Point(10, 162);
             this.onlyBestCheck.Name = "onlyBestCheck";
             this.onlyBestCheck.Size = new System.Drawing.Size(144, 16);
             this.onlyBestCheck.TabIndex = 11;
@@ -349,13 +361,15 @@ namespace OpenRa_GA
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.GALaunch);
+            this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.currentValueBox);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.currentIterationBox);
             this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Location = new System.Drawing.Point(320, 235);
+            this.groupBox3.Location = new System.Drawing.Point(320, 203);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(185, 75);
+            this.groupBox3.Size = new System.Drawing.Size(185, 107);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Current iteration";
@@ -392,13 +406,22 @@ namespace OpenRa_GA
             this.label9.TabIndex = 0;
             this.label9.Text = "Iteration:";
             // 
-            // textBox1
+            // label11
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 97);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(284, 190);
-            this.textBox1.TabIndex = 5;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 75);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(75, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "GA Launching";
+            // 
+            // GALaunch
+            // 
+            this.GALaunch.Location = new System.Drawing.Point(125, 75);
+            this.GALaunch.Name = "GALaunch";
+            this.GALaunch.ReadOnly = true;
+            this.GALaunch.Size = new System.Drawing.Size(50, 20);
+            this.GALaunch.TabIndex = 5;
             // 
             // MainForm
             // 
@@ -422,58 +445,59 @@ namespace OpenRa_GA
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
-		}
-		#endregion
+        }
+        #endregion
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		[STAThread]
-		static void Main( ) 
-		{
-			Application.Run( new MainForm( ) );
-		}
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.Run(new MainForm());
+        }
+
 
         // Delegates to enable async calls for setting controls properties
-        private delegate void SetTextCallback( System.Windows.Forms.Control control, string text );
+        private delegate void SetTextCallback(System.Windows.Forms.Control control, string text);
 
         // Thread safe updating of control's text property
-        private void SetText( System.Windows.Forms.Control control, string text )
+        private void SetText(System.Windows.Forms.Control control, string text)
         {
-            if ( control.InvokeRequired )
+            if (control.InvokeRequired)
             {
-                SetTextCallback d = new SetTextCallback( SetText );
-                Invoke( d, new object[] { control, text } );
+                SetTextCallback d = new SetTextCallback(SetText);
+                Invoke(d, new object[] { control, text });
             }
             else
             {
                 control.Text = text;
             }
         }
-        
-        // On main form closing
-		private void MainForm_Closing( object sender, System.ComponentModel.CancelEventArgs e )
-		{
-			// check if worker thread is running
-			if ( ( workerThread != null ) && ( workerThread.IsAlive ) )
-			{
-				needToStop = true;
-                while ( !workerThread.Join( 100 ) )
-                    Application.DoEvents( );
-            }
-		}
 
-		// Update settings controls
-		private void UpdateSettings( )
-		{
-			populationSizeBox.Text		= populationSize.ToString( );
-			chromosomeLengthBox.Text	= chromosomeLength.ToString( );
-			iterationsBox.Text			= iterations.ToString( );
-		}
-		
-		// Update chart
-        
-		/*private void UpdateChart( )
+        // On main form closing
+        private void MainForm_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // check if worker thread is running
+            if ((workerThread != null) && (workerThread.IsAlive))
+            {
+                needToStop = true;
+                while (!workerThread.Join(100))
+                    Application.DoEvents();
+            }
+        }
+
+        // Update settings controls
+        private void UpdateSettings()
+        {
+            populationSizeBox.Text = populationSize.ToString();
+            chromosomeLengthBox.Text = chromosomeLength.ToString();
+            iterationsBox.Text = iterations.ToString();
+        }
+
+        // Update chart
+
+        /*private void UpdateChart( )
 		{
 			// update chart range
             chart.RangeX = userFunction.range;
@@ -498,9 +522,9 @@ namespace OpenRa_GA
 			// update chart series
 			chart.UpdateDataSeries( "function", data );
 		}*/
-       
-		// Update min value
-		/*
+
+        // Update min value
+        /*
         private void minXBox_TextChanged(object sender, System.EventArgs e)
 		{
 			try
@@ -527,15 +551,15 @@ namespace OpenRa_GA
 		}*/
 
         // Delegates to enable async calls for setting controls properties
-        private delegate void EnableCallback( bool enable );
+        private delegate void EnableCallback(bool enable);
 
         // Enable/disale controls (safe for threading)
-		private void EnableControls( bool enable )
-		{
-            if ( InvokeRequired )
+        private void EnableControls(bool enable)
+        {
+            if (InvokeRequired)
             {
-                EnableCallback d = new EnableCallback( EnableControls );
-                Invoke( d, new object[] { enable } );
+                EnableCallback d = new EnableCallback(EnableControls);
+                Invoke(d, new object[] { enable });
             }
             else
             {
@@ -552,106 +576,118 @@ namespace OpenRa_GA
                 startButton.Enabled = enable;
                 stopButton.Enabled = !enable;
             }
-		}
+        }
 
-		// On "Start" button click
-		private void startButton_Click(object sender, System.EventArgs e)
-		{
-			// get population size
-			try
-			{
-                GenNumber = 0;
-				populationSize = Math.Max( 10, Math.Min( 100, int.Parse( populationSizeBox.Text ) ) );
-			}
-			catch
-			{
-				populationSize = 40;
-			}
-			// get chromosome length
-			try
-			{
-				chromosomeLength = Math.Max( 8, Math.Min( 64, int.Parse( chromosomeLengthBox.Text ) ) );
-			}
-			catch
-			{
-				chromosomeLength = 32;
-			}
-			// iterations
-			try
-			{
-				iterations = Math.Max( 0, int.Parse( iterationsBox.Text ) );
-			}
-			catch
-			{
-				iterations = 100;
-			}
-			// update settings controls
-			UpdateSettings( );
+        // On "Start" button click
+        private void startButton_Click(object sender, System.EventArgs e)
+        {
+            // get population size
+            try
+            {
+                populationSize = Math.Max(10, Math.Min(100, int.Parse(populationSizeBox.Text)));
+            }
+            catch
+            {
+                populationSize = 40;
+            }
+            XRange.Min = 0;
+            XRange.Max = populationSize;
+            chart.RangeX = XRange;
+            // get chromosome length
+            try
+            {
+                chromosomeLength = Math.Max(8, Math.Min(64, int.Parse(chromosomeLengthBox.Text)));
+            }
+            catch
+            {
+                chromosomeLength = 32;
+            }
+            // iterations
+            try
+            {
+                iterations = Math.Max(0, int.Parse(iterationsBox.Text));
+            }
+            catch
+            {
+                iterations = 100;
+            }
+            // update settings controls
+            UpdateSettings();
 
-			selectionMethod = selectionBox.SelectedIndex;
-			optimizationMode = modeBox.SelectedIndex;
-			showOnlyBest = onlyBestCheck.Checked;
+            selectionMethod = selectionBox.SelectedIndex;
+            optimizationMode = modeBox.SelectedIndex;
+            showOnlyBest = onlyBestCheck.Checked;
 
-			// disable all settings controls except "Stop" button
-			EnableControls( false );
+            // disable all settings controls except "Stop" button
+            EnableControls(false);
 
-			// run worker thread
-			needToStop = false;
-			workerThread = new Thread( new ThreadStart( SearchSolution ) );
-			workerThread.Start( );
-		}
+            // run worker thread
+            needToStop = false;
+            workerThread = new Thread(new ThreadStart(SearchSolution));
+            workerThread.Start();
+        }
 
-		// On "Stop" button click
-		private void stopButton_Click(object sender, System.EventArgs e)
-		{
-			// stop worker thread
-			needToStop = true;
-            while ( !workerThread.Join( 100 ) )
-                Application.DoEvents( );
+        // On "Stop" button click
+        private void stopButton_Click(object sender, System.EventArgs e)
+        {
+            // stop worker thread
+            needToStop = true;
+            while (!workerThread.Join(100))
+                Application.DoEvents();
             workerThread = null;
-		}
+        }
 
 
-		// Worker thread
-		void SearchSolution( )
+        // Worker thread
+        void SearchSolution()
         {
             //MessageBox.Show("Starting search");
-			// create population
-			Population population = new Population( populationSize,
-				new ShortArrayChromosome( 12,100 ),
-				userFunction,(ISelectionMethod) new RankSelection( ));
-			// set optimization mode
-			//userFunction.Mode = OptimizationFunction1D.Modes.Maximization;
-			// iterations
-			int i = 1;
-			// solution
-			double[,] data = new double[(showOnlyBest) ? 1 : populationSize, 2];
+            // create population
+            userFunction.InitFitResult(populationSize);
+#pragma warning disable CS0436 // Type conflicts with imported type
+            Population population = new Population(populationSize,
+#pragma warning restore CS0436 // Type conflicts with imported type
+                new ShortArrayChromosome(12, 100),
+                userFunction, (ISelectionMethod)new RankSelection());
+            // set optimization mode
+            //userFunction.Mode = OptimizationFunction1D.Modes.Maximization;
+            // iterations
+            int i = 1;
+            // solution
+            double[,] data = new double[(showOnlyBest) ? 1 : populationSize, 2];
             //since population intialization generates first set of chromosomes, 
             //we'll run them thru outside of loop, and come into the loop with the post game selection in place
-            MakeYamls(population);
+            /*MakeYamls(population);
             LaunchOpenRA(population);
             FindFitness(population);
             population.ReEvaluate();
             population.FindBestChromosome();
             textBox1.Text =textBox1.Text +"Best Chromosome value is:" + population.BestChromosome.ToString() + "belonging to GA_" + userFunction.FindChromosome(population.BestChromosome) + " With fitness of:" + userFunction.Evaluate(population.BestChromosome) + " populations max fitness is:" + population.FitnessMax+"\n";
-			// loop
-			while ( !needToStop )
-			{
-                GenNumber++;
-                textBox1.Text = textBox1.Text + Convert.ToString(GenNumber);
-				// run one epoch of genetic algorithm
-                population.Crossover(); //epoch part1
-                population.Mutate();    //epoch part2
-                population.Selection();//epoch part3
+			// loop*/
+            while (!needToStop)
+            {
+                SetText(currentIterationBox, i.ToString());
+                SetText(textBox1, textBox1.Text + Convert.ToString(currentIterationBox.Text));
+                // run one epoch of genetic algorithm
+                //population.Crossover(); //epoch part1
+                //population.Mutate();    //epoch part2
+                //population.Selection();//epoch part3
                 MakeYamls(population);
+                //Init fitness array
+                for (int x = 0; x < populationSize; x++)
+                {
+                    userFunction.Fitresults[x, 0] = population[x].ToString();
+                    userFunction.Fitresults[x, 1] = "1";
+                    userFunction.Fitresults[x, 2] = "0";
+                }
                 LaunchOpenRA(population);
-                FindFitness(population);
+                FindFitness(population,true);
                 population.ReEvaluate();
                 population.FindBestChromosome();
-                textBox1.Text = textBox1.Text + "Best Chromosome value is:" +population.BestChromosome.ToString()+"belonging to GA_"+userFunction.FindChromosome(population.BestChromosome)+" With fitness of:"+userFunction.Evaluate(population.BestChromosome)+" populations max fitness is:"+population.FitnessMax+"\n";
-				//population.RunEpoch( ); //need to see if fitness function is run before or after new chromosomes are generated
-				// show current solution
-				/*
+                SetText(textBox1, textBox1.Text + "Best Chromosome value is:" + population.BestChromosome.ToString() + "belonging to GA_" + userFunction.FindChromosome(population.BestChromosome) + " With fitness of:" + userFunction.Evaluate(population.BestChromosome) + " populations max fitness is:" + population.FitnessMax + "\n");
+                //population.RunEpoch( ); //need to see if fitness function is run before or after new chromosomes are generated
+                // show current solution
+                /*
                 if ( showOnlyBest )
 				{
 					data[0, 0] =  population.BestChromosome.ToString;
@@ -659,92 +695,147 @@ namespace OpenRa_GA
 				}
 				else
 				{*/
-					for ( int j = 0; j < populationSize; j++ )
-					{
-                        data[j, 0] = j; //userFunction.Translate( population[j] );
-						data[j, 1] = userFunction.GetFitness( population[j] );
-					}
-				//}
+                for (int j = 0; j < populationSize; j++)
+                {
+                    data[j, 0] = j; //userFunction.Translate( population[j] );
+                    data[j, 1] = userFunction.GetFitness(population[j]);
+                }
+                //}
                 //TODO need to display list of results to identify who's the best 
-				chart.UpdateDataSeries( "solution", data );
+                chart.UpdateDataSeries("solution", data);
 
-				// set current iteration's info
-                SetText( currentIterationBox, i.ToString( ) );
-                SetText( currentValueBox, userFunction.GetFitness( population.BestChromosome ).ToString( "F3" ) );
+                // set current iteration's info
 
-				// increase current iteration
-				i++;
+                SetText(currentValueBox, userFunction.GetFitness(population.BestChromosome).ToString("F3"));
 
-				//
-				if ( ( iterations != 0 ) && ( i > iterations ) )
-					break;
-			}
+                // increase current iteration
+                i++;
 
-			// enable settings controls
-			EnableControls( true );
-		}
+                //
+                if ((iterations != 0) && (i > iterations))
+                    break;
+                population.RunEpoch();
+            }
 
-        private void FindFitness(Population population)
+            // enable settings controls
+            EnableControls(true);
+        }
+
+#pragma warning disable CS0436 // Type conflicts with imported type
+        private void FindFitness(Population population,Boolean final=false)
+#pragma warning restore CS0436 // Type conflicts with imported type
         {
+            double[,] data = new double[(showOnlyBest) ? 1 : populationSize, 2];
             try
             {
-                for (int x = 0; x < populationSize; x++)
-                {
-                    userFunction.Fitresults[x, 0] = population[x].ToString();
-                    userFunction.Fitresults[x, 1] = "0";
-                }
                 string path = Environment.ExpandEnvironmentVariables("%userprofile%");
-                string[] dirs = Directory.GetFiles(@path+"\\Documents\\OpenRA\\Logs", "end_game_fitness.log*");
+                string[] dirs = Directory.GetFiles(@path + "\\Documents\\OpenRA\\Logs", "Gen" + Convert.ToString(currentIterationBox.Text) + "GA_*.log");
                 foreach (string myfile in dirs)
                 {
+                    int GA_Num = -1;
                     Regex logs = new Regex(@"^GA_(\d+)\s+[|]\s+(\d+)\s*[|]\s+(\d+)");
-                    StreamReader reader = File.OpenText(myfile);
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
+                    FileInfo f = new FileInfo(myfile);
+                    if (f.Length > 0)
                     {
-                        Match match = logs.Match(line);
-                        if (match.Success)
+                        try
                         {
-                            int GA_member = int.Parse(match.Groups[1].Value);
-                            int Kill_cost = int.Parse(match.Groups[2].Value);
-                            int Death_cost = int.Parse(match.Groups[3].Value);
-                            userFunction.Fitresults[GA_member, 1] = Convert.ToString(Convert.ToSingle (Kill_cost) / Convert.ToSingle(Death_cost));
-                            // At this point, `number` and `path` contain the values we want
-                            // for the current line. We can then store those values or print them,
-                            // or anything else we like.
+                            StreamReader reader = File.OpenText(myfile);
+                            string line;
+                            while ((line = reader.ReadLine()) != null)
+                            {
+                                Match match = logs.Match(line);
+                                if (match.Success)
+                                {
+                                    int GA_member = int.Parse(match.Groups[1].Value);
+                                    int Kill_cost = int.Parse(match.Groups[2].Value);
+                                    int Death_cost = int.Parse(match.Groups[3].Value);
+                                    GA_Num = GA_member;
+                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost));
+                                }
+                            }
+                            reader.Close();
+                            if (GA_Num != -1)
+                            {
+                                File.Copy(myfile, @path + "\\Documents\\OpenRA\\Logs\\End_Game_Backup_Gen"+ Convert.ToString(currentIterationBox.Text)+"GA_" + Convert.ToString(GA_Num), true);
+                                File.Delete(myfile);
+                            }
                         }
+                        catch { }
+                    }
+                    else
+                    {
+                        //relaunch this GA attempt
                     }
                 }
-                var process = new Process
+                if (final)
                 {
-                    StartInfo = new ProcessStartInfo
+                    var process = new Process
                     {
-                        //FileName = "OpenRa"
-                        FileName = @path+"\\Documents\\OpenRA\\Logs\\backup.bat",
-                        WorkingDirectory = @path + "\\Documents\\OpenRA\\Logs"
+                        StartInfo = new ProcessStartInfo
+                        {
+                            //FileName = "OpenRa"
+                            FileName = @path + "\\Documents\\OpenRA\\Logs\\backup.bat",
+                            WorkingDirectory = @path + "\\Documents\\OpenRA\\Logs"
+                        }
+                    };
+                    process.StartInfo.Arguments = Convert.ToString(currentIterationBox.Text);
+                    process.Start();
+                    process.WaitForExit(15000);
+                    for (int x = 0; x < populationSize; x++)
+                    {
+                        WriteLog("Gen" + Convert.ToString(currentIterationBox.Text) + "FitResults", userFunction.Fitresults[x, 0] + ":" + userFunction.Fitresults[x, 0]);
                     }
-                };
-                process.StartInfo.Arguments = Convert.ToString(GenNumber);
-                process.Start();
+                }
             }
             catch (Win32Exception ex)
             {
                 Console.WriteLine(ex.GetType().FullName);
                 Console.WriteLine(ex.Message);
             }
+            for (int j = 0; j < populationSize; j++)
+            {
+                data[j, 0] = j; //userFunction.Translate( population[j] );
+                data[j, 1] = userFunction.GetFitness(population[j]);
+            }
+            //}
+            //TODO need to display list of results to identify who's the best 
+            chart.UpdateDataSeries("solution", data);
         }
+        private void WriteLog(string filename,string msg)
+        {
+            string path = Environment.ExpandEnvironmentVariables("%userprofile%");
+            FileStream fs = new FileStream(@path + "\\Documents\\OpenRA\\Logs\\" + filename, FileMode.Append);
+            StreamWriter writer = new StreamWriter(fs);
+            StringBuilder output = new StringBuilder();
+            try
+            {
 
+                writer.WriteLine(DateTime.Now.ToString("YYYY/MM/dd H:mm:ss")+ msg);
+                
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine(ex.GetType().FullName);
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                writer.Close();
+                //Copy the Yaml for review process to the correct Gen#
+            }
+        }
+#pragma warning disable CS0436 // Type conflicts with imported type
         private void MakeYamls(Population population)
+#pragma warning restore CS0436 // Type conflicts with imported type
         {
             System.IO.Directory.CreateDirectory("mods\\ra\\rules");
             //FileStream fs = new FileStream("mods\\ra\\rules\\GA_AI.yaml", FileMode.Create);
-            System.IO.File.Move("C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI"+Convert.ToString(GenNumber)+".yaml");
             FileStream fs = new FileStream("C: \\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", FileMode.Create);
             StreamWriter writer = new StreamWriter(fs);
             StringBuilder output = new StringBuilder();
             try
             {
-                
+
                 writer.WriteLine("Player:");
 
                 for (int x = 0; x < populationSize; x++)
@@ -876,63 +967,157 @@ namespace OpenRa_GA
             finally
             {
                 writer.Close();
+                //Copy the Yaml for review process to the correct Gen#
+                System.IO.File.Copy("C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI" + Convert.ToString(currentIterationBox.Text) + ".yaml", true);
             }
         }
 
+#pragma warning disable CS0436 // Type conflicts with imported type
         private void LaunchOpenRA(Population population)
+#pragma warning restore CS0436 // Type conflicts with imported type
         {
+            string path = Environment.ExpandEnvironmentVariables("%userprofile%");
+            try
+            {
+                FileInfo f = new FileInfo(@path + "\\Documents\\OpenRA\\Logs\\exception.log");
+                f.Delete();
+            }
+            catch
+            {
+
+            }
             //MessageBox.Show("Ready to Launch games");
-            List<Process> Processes= new List<Process>();
+        List <Process> Processes = new List<Process>();
             try
             {
                 for (int x = 0; x < populationSize; x++)
                 {
-                    var process = new Process
-                    {
-                        StartInfo = new ProcessStartInfo
-                        {
-                            //FileName = "OpenRa"
-                            FileName = "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\OpenRA.Game.exe",
-                            WorkingDirectory= "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA"
-                        }
-                    };
-                    process.StartInfo.Arguments = "Launch.Ai=\"GA_" + Convert.ToString(x) + "\"";
-                    process.Start();
-                    Processes.Add(process);
+                    SetText(GALaunch, x.ToString());
+                    StartGA(Processes, x);
                     System.Threading.Thread.Sleep(8000);
+                    try {
+                        FileInfo f = new FileInfo(@path + "\\Documents\\OpenRA\\Logs\\exception.log");
+                        if (f.Length != 0) { x--; f.Delete(); } //if we caused an exception, retry the last launch and delete the exception file. 
+                        }
+                    catch { }
+                    while (getProcessCount(Processes) > 15)
+                    {
+                        System.Threading.Thread.Sleep(10000);
+                        Processes.ForEach(delegate (Process p)
+                        {
+                            if (p.HasExited == false)
+                            {
+                                MessageBox.Show(p.StartInfo.Arguments+"\n"+Convert.ToString(p.HasExited)+":"+Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
+                                if (DateTime.Now.Subtract(p.StartTime).Minutes > 90)
+                                {
+                                    Regex logs = new Regex(@"GA_(\d+)");
+                                    Match match = logs.Match(p.StartInfo.Arguments);
+                                    p.Kill();
+                                    if (match.Success)
+                                    {
+                                        int GA_number= int.Parse(match.Groups[1].Value);
+                                        if (Convert.ToInt16(userFunction.Fitresults[GA_number,2])<3)
+                                        {
+                                            StartGA(Processes, GA_number);
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                        }
+                        );
+                    }
+                    FindFitness(population);
                 }
                 //wait till all threads has ended
                 Boolean done = false;
                 while (done == false)
                 {
                     done = true;
-                    Processes.ForEach(delegate(Process p)
+                    Processes.ForEach(delegate (Process p)
                     {
-                        if (p.HasExited == false) { done = false; }
-                    });
+                        if (p.HasExited == false)
+                        {
+                            done = false;
+                            MessageBox.Show(p.StartInfo.Arguments + "\n" + Convert.ToString(p.HasExited) + ":" + Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
+                            if (DateTime.Now.Subtract(p.StartTime).Minutes > 90)
+                            {
+                                
+                                Regex logs = new Regex(@"GA_(\d+)");
+                                Match match = logs.Match(p.StartInfo.Arguments);
+                                p.Kill();
+                                if (match.Success)
+                                {
+                                    int GA_number = int.Parse(match.Groups[1].Value);
+                                    if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+                                    {
+                                        StartGA(Processes, GA_number);
+                                    }
+                                }
+                            }
+                            /*MessageBox.Show(p.StartInfo.Arguments);
+                            MessageBox.Show(Convert.ToString(p.HasExited));
+                            MessageBox.Show(Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));*/
+                        }
+                    }
+                        );
+                    System.Threading.Thread.Sleep(10000);
                 }
+                System.Threading.Thread.Sleep(15000);
+                FindFitness(population,true);
             }
             catch (Win32Exception ex)
             {
                 Console.WriteLine(ex.GetType().FullName);
                 Console.WriteLine(ex.Message);
             }
-           // processes = Process.GetProcessesByName("OpenRa");
-            
+            // processes = Process.GetProcessesByName("OpenRa");
+
             //process.HasExited
-            
+
         }
 
-	}
+        private void StartGA(List<Process> processes, int GA_Num)
+        {
+            var process = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    //FileName = "OpenRa"
+                    FileName = "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\OpenRA.Game.exe",
+                    WorkingDirectory = "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA"
+                }
+            };
+            process.StartInfo.Arguments = "Launch.Ai=\"GA_" + Convert.ToString(GA_Num) + "\" Launch.MapName=\"Forest Path\" Launch.FitnessLog=\"Gen" + Convert.ToString(currentIterationBox.Text) + "GA_" + Convert.ToString(GA_Num) + "\"";
+            process.Start();
+            processes.Add(process);
+        }
 
+        public int getProcessCount(List<Process> Processes)
+        {
+            int activeCount = 0;
+            Processes.ForEach(delegate (Process p)
+            {
+                if (p.HasExited == false) { activeCount++; }
+            });
+            return activeCount;
+        }
+    }
 	// Function to optimize
 	public class UserFunction : IFitnessFunction
 	{
         public const int Min =0;
         public const int Max = 100;
-        public const int length = 12;
-        public string[,] Fitresults= new string[10,2]; //chromo string,fitresults
+        public const int length = 12;//genecount
+        public int popSize;
+        public string[,] Fitresults; //chromo string,fitresults
         public Range range = new Range(0, 10);
+        public void InitFitResult(int FitSize)
+        {
+            Fitresults= new string[FitSize, 3];//Chromosome value,Fitness result, retry count
+            popSize = FitSize;
+        }
         public double Evaluate(IChromosome chromosome)
         {
             return  GetFitness(chromosome);
@@ -943,7 +1128,7 @@ namespace OpenRa_GA
             //pull fitness info from log file based on Chromosome ID(How do I set a static Id for the Chromosome?)
            // throw new NotImplementedException();
             //RunEpoch runs this after generation of the population.. not before the generation of the new pop... 
-            for (int x = 0; x < 10; x++)
+            for (int x = 0; x < popSize; x++)
             {
                 if (chromosome.ToString() == Fitresults[x, 0])
                 {
@@ -954,7 +1139,7 @@ namespace OpenRa_GA
         }
         public int FindChromosome(IChromosome chromosome)
         {
-            for (int x = 0; x < 10; x++)
+            for (int x = 0; x < popSize; x++)
             {
                 if (chromosome.ToString() == Fitresults[x, 0])
                 {

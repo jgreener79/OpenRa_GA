@@ -500,6 +500,7 @@ namespace AForge.Genetic
             population.Add( chromosome );
         }
 
+#pragma warning disable CS0436 // Type conflicts with imported type
         /// <summary>
         /// Perform migration between two populations.
         /// </summary>
@@ -515,6 +516,7 @@ namespace AForge.Genetic
         /// and put into another population replacing worst members there.</para></remarks>
         /// 
         public void Migrate( Population anotherPopulation, int numberOfMigrants, ISelectionMethod migrantsSelector )
+#pragma warning restore CS0436 // Type conflicts with imported type
         {
             int currentSize = this.size;
             int anotherSize = anotherPopulation.Size;
