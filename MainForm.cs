@@ -13,6 +13,8 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 using System.Threading;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 using AForge;
 using AForge.Genetic;
@@ -74,8 +76,16 @@ namespace OpenRa_GA
         private volatile bool needToStop = false;
         private TextBox GALaunch;
         private Label label11;
+        private TextBox textBoxRun;
+        private Label label12;
         private AForge.Range XRange;
-
+        string cs = @"server=localhost;userid=root;password=root;database=mydb";
+        private Label label13;
+        private TextBox MaxCThread;
+        private Label TC;
+        private Label label14;
+        MySqlConnection conn = null;
+        List<Process> Processes;
         // Constructor
         public MainForm()
         {
@@ -83,7 +93,16 @@ namespace OpenRa_GA
             // Required for Windows Form Designer support
             //
             InitializeComponent();
+            try
+            {
+                conn = new MySqlConnection(cs);
+                conn.Open();
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.ToString());
 
+            }
             // add data series to chart
             chart.AddDataSeries("function", Color.Red, Chart.SeriesType.Line, 1);
             chart.AddDataSeries("solution", Color.Blue, Chart.SeriesType.Dots, 5);
@@ -95,6 +114,68 @@ namespace OpenRa_GA
             selectionBox.SelectedIndex = selectionMethod;
             modeBox.SelectedIndex = optimizationMode;
             UpdateSettings();
+            SetText(textBoxRun, Convert.ToString(SQLGetInt("Select max(RunId)+1 from RunTrack")));
+        }
+
+        private int SQLGetInt(string SqlStatement)
+        {
+            try
+            {
+                if (conn.State.ToString ()== "Closed")
+                {
+                    conn.Open();
+                }
+                string stm = SqlStatement;
+                MySqlCommand cmd = new MySqlCommand(stm, conn);
+                return Convert.ToInt16(cmd.ExecuteScalar());
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.ToString());
+                return -1;
+            }
+        }
+        private Boolean SQLExecuteCommand(string SqlStatement){
+             try
+            {
+                string stm = SqlStatement;
+                MySqlCommand cmd = new MySqlCommand(stm, conn);
+                if (cmd.ExecuteNonQuery() == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+             catch (MySqlException ex)
+             {
+                 Console.WriteLine("Error: {0}", ex.ToString());
+                 return false;
+             }
+        }
+        private Boolean SQLStoreFit(int RunId,int GenId,string Chrome,Single FitValue)
+        {
+             //INSERT INTO `mydb`.`fitresults` (`RunId`, `GenId`, `Chromosome`, `FitValue`) VALUES ('0', '0', '01 02 03 04 05 06 07 08 09 10 11 12 ', '3.02753');
+            try
+            {
+                string stm = "Insert into FitResults(RunId,GenId,Chromosome,FitValue) Values("+Convert.ToString (RunId)+","+Convert.ToString(GenId)+",'"+Chrome+"',"+Convert.ToString(FitValue)+")";
+                MySqlCommand cmd = new MySqlCommand(stm, conn);
+                if (cmd.ExecuteNonQuery() == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.ToString());
+                return false;
+            }
         }
 
         /// <summary>
@@ -122,12 +203,16 @@ namespace OpenRa_GA
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.chart = new AForge.Controls.Chart();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TC = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.minXBox = new System.Windows.Forms.TextBox();
             this.maxXBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.MaxCThread = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.modeBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.selectionBox = new System.Windows.Forms.ComboBox();
@@ -143,12 +228,14 @@ namespace OpenRa_GA
             this.startButton = new System.Windows.Forms.Button();
             this.stopButton = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBoxRun = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.GALaunch = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.currentValueBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.currentIterationBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.GALaunch = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -165,6 +252,8 @@ namespace OpenRa_GA
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.TC);
+            this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.chart);
             this.groupBox1.Controls.Add(this.label1);
@@ -177,6 +266,24 @@ namespace OpenRa_GA
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Function";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // TC
+            // 
+            this.TC.AutoSize = true;
+            this.TC.Location = new System.Drawing.Point(253, 298);
+            this.TC.Name = "TC";
+            this.TC.Size = new System.Drawing.Size(0, 13);
+            this.TC.TabIndex = 6;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(176, 298);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(71, 13);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "Thread count";
             // 
             // textBox1
             // 
@@ -218,6 +325,8 @@ namespace OpenRa_GA
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.MaxCThread);
+            this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.modeBox);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.selectionBox);
@@ -236,6 +345,24 @@ namespace OpenRa_GA
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Settings";
+            // 
+            // MaxCThread
+            // 
+            this.MaxCThread.Location = new System.Drawing.Point(125, 145);
+            this.MaxCThread.Name = "MaxCThread";
+            this.MaxCThread.Size = new System.Drawing.Size(49, 20);
+            this.MaxCThread.TabIndex = 12;
+            this.MaxCThread.Text = "25";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(1, 148);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(119, 13);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Max Concurrent Thread";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // modeBox
             // 
@@ -279,7 +406,7 @@ namespace OpenRa_GA
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(125, 142);
+            this.label6.Location = new System.Drawing.Point(126, 133);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 16);
             this.label6.TabIndex = 10;
@@ -287,14 +414,14 @@ namespace OpenRa_GA
             // 
             // iterationsBox
             // 
-            this.iterationsBox.Location = new System.Drawing.Point(125, 122);
+            this.iterationsBox.Location = new System.Drawing.Point(125, 119);
             this.iterationsBox.Name = "iterationsBox";
             this.iterationsBox.Size = new System.Drawing.Size(50, 20);
             this.iterationsBox.TabIndex = 9;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(10, 124);
+            this.label5.Location = new System.Drawing.Point(10, 121);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 16);
             this.label5.TabIndex = 8;
@@ -361,6 +488,8 @@ namespace OpenRa_GA
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.textBoxRun);
+            this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.GALaunch);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.currentValueBox);
@@ -374,9 +503,43 @@ namespace OpenRa_GA
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Current iteration";
             // 
+            // textBoxRun
+            // 
+            this.textBoxRun.Location = new System.Drawing.Point(125, 64);
+            this.textBoxRun.Name = "textBoxRun";
+            this.textBoxRun.ReadOnly = true;
+            this.textBoxRun.Size = new System.Drawing.Size(50, 20);
+            this.textBoxRun.TabIndex = 7;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 67);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(71, 13);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Current Run#";
+            // 
+            // GALaunch
+            // 
+            this.GALaunch.Location = new System.Drawing.Point(125, 44);
+            this.GALaunch.Name = "GALaunch";
+            this.GALaunch.ReadOnly = true;
+            this.GALaunch.Size = new System.Drawing.Size(50, 20);
+            this.GALaunch.TabIndex = 5;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 46);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(75, 13);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "GA Launching";
+            // 
             // currentValueBox
             // 
-            this.currentValueBox.Location = new System.Drawing.Point(125, 45);
+            this.currentValueBox.Location = new System.Drawing.Point(125, 26);
             this.currentValueBox.Name = "currentValueBox";
             this.currentValueBox.ReadOnly = true;
             this.currentValueBox.Size = new System.Drawing.Size(50, 20);
@@ -384,7 +547,7 @@ namespace OpenRa_GA
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(10, 47);
+            this.label10.Location = new System.Drawing.Point(6, 31);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 15);
             this.label10.TabIndex = 2;
@@ -392,7 +555,7 @@ namespace OpenRa_GA
             // 
             // currentIterationBox
             // 
-            this.currentIterationBox.Location = new System.Drawing.Point(125, 20);
+            this.currentIterationBox.Location = new System.Drawing.Point(125, 9);
             this.currentIterationBox.Name = "currentIterationBox";
             this.currentIterationBox.ReadOnly = true;
             this.currentIterationBox.Size = new System.Drawing.Size(50, 20);
@@ -400,28 +563,11 @@ namespace OpenRa_GA
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(10, 22);
+            this.label9.Location = new System.Drawing.Point(7, 13);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(60, 16);
             this.label9.TabIndex = 0;
             this.label9.Text = "Iteration:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 75);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(75, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "GA Launching";
-            // 
-            // GALaunch
-            // 
-            this.GALaunch.Location = new System.Drawing.Point(125, 75);
-            this.GALaunch.Name = "GALaunch";
-            this.GALaunch.ReadOnly = true;
-            this.GALaunch.Size = new System.Drawing.Size(50, 20);
-            this.GALaunch.TabIndex = 5;
             // 
             // MainForm
             // 
@@ -437,6 +583,8 @@ namespace OpenRa_GA
             this.Name = "MainForm";
             this.Text = "1D Optimization using Genetic Algorithms";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.MainForm_Closing);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -617,7 +765,8 @@ namespace OpenRa_GA
             selectionMethod = selectionBox.SelectedIndex;
             optimizationMode = modeBox.SelectedIndex;
             showOnlyBest = onlyBestCheck.Checked;
-
+            //MessageBox.Show(selectionBox.SelectedItem.ToString());
+            SQLExecuteCommand("Insert Into RunTrack(RunId,StartingNotes) VALUES(" + textBoxRun.Text + ",'Pop=" + Convert.ToString(populationSize) + ", SelectMethod=" + Convert.ToString(selectionBox.SelectedItem.ToString()) + "')");
             // disable all settings controls except "Stop" button
             EnableControls(false);
 
@@ -701,7 +850,6 @@ namespace OpenRa_GA
                     data[j, 1] = userFunction.GetFitness(population[j]);
                 }
                 //}
-                //TODO need to display list of results to identify who's the best 
                 chart.UpdateDataSeries("solution", data);
 
                 // set current iteration's info
@@ -729,7 +877,7 @@ namespace OpenRa_GA
             try
             {
                 string path = Environment.ExpandEnvironmentVariables("%userprofile%");
-                string[] dirs = Directory.GetFiles(@path + "\\Documents\\OpenRA\\Logs", "Gen" + Convert.ToString(currentIterationBox.Text) + "GA_*.log");
+                string[] dirs = Directory.GetFiles(@path + "\\Documents\\OpenRA\\Logs", "Run"+ Convert.ToString(textBoxRun.Text)+"_Gen" + Convert.ToString(currentIterationBox.Text) + "GA_*.log");
                 foreach (string myfile in dirs)
                 {
                     int GA_Num = -1;
@@ -749,8 +897,18 @@ namespace OpenRa_GA
                                     int GA_member = int.Parse(match.Groups[1].Value);
                                     int Kill_cost = int.Parse(match.Groups[2].Value);
                                     int Death_cost = int.Parse(match.Groups[3].Value);
+                                    float FitValue= (Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost))*1000;
+                                    if (Death_cost == 0) { FitValue =10000; }
                                     GA_Num = GA_member;
-                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost));
+                                    //TODO-done: debug why this is failing, msgbox on each passed element
+                                    //MessageBox.Show(Convert.ToString(Convert.ToInt16(textBoxRun.Text)));
+                                    //MessageBox.Show(Convert.ToString(Convert.ToInt16(currentIterationBox.Text )));
+                                    //MessageBox.Show(userFunction.Fitresults[GA_member, 0]);
+                                    //MessageBox.Show(Convert.ToString(Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost)));
+                                    SQLStoreFit(Convert.ToInt16(textBoxRun.Text), Convert.ToInt16(currentIterationBox.Text), userFunction.Fitresults[GA_member, 0], FitValue);
+                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(SQLGetInt("Select AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000) from fitResults where RunId=" + textBoxRun.Text + " and Chromosome='" + userFunction.Fitresults[GA_member, 0] + "'"));
+                                    //Fitness 1 AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000)
+
                                 }
                             }
                             reader.Close();
@@ -764,7 +922,15 @@ namespace OpenRa_GA
                     }
                     else
                     {
+                        /*
+                        MessageBox.Show(myfile);
+                        MessageBox.Show(myfile.Substring(myfile.LastIndexOf("GA_") + 1));
+                        String holder = myfile.Substring(myfile.LastIndexOf("GA_") + 3);
+                        holder = holder.Substring(0, holder.LastIndexOf("_"));
+                        MessageBox.Show(holder);
+                        StartGA(Processes, Convert.ToInt16(holder), -2);
                         //relaunch this GA attempt
+                        fitness file is currently size 0, may simply in process*/
                     }
                 }
                 if (final)
@@ -798,7 +964,6 @@ namespace OpenRa_GA
                 data[j, 1] = userFunction.GetFitness(population[j]);
             }
             //}
-            //TODO need to display list of results to identify who's the best 
             chart.UpdateDataSeries("solution", data);
         }
         private void WriteLog(string filename,string msg)
@@ -830,7 +995,7 @@ namespace OpenRa_GA
         {
             System.IO.Directory.CreateDirectory("mods\\ra\\rules");
             //FileStream fs = new FileStream("mods\\ra\\rules\\GA_AI.yaml", FileMode.Create);
-            FileStream fs = new FileStream("C: \\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", FileMode.Create);
+            FileStream fs = new FileStream("C:\\Users\\Administrator\\Documents\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", FileMode.Create);
             StreamWriter writer = new StreamWriter(fs);
             StringBuilder output = new StringBuilder();
             try
@@ -968,7 +1133,7 @@ namespace OpenRa_GA
             {
                 writer.Close();
                 //Copy the Yaml for review process to the correct Gen#
-                System.IO.File.Copy("C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI" + Convert.ToString(currentIterationBox.Text) + ".yaml", true);
+                System.IO.File.Copy("C:\\Users\\Administrator\\Documents\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI.yaml", "C:\\Users\\Administrator\\Documents\\ESU_OpenRA\\mods\\ra\\rules\\GA_AI" + Convert.ToString(currentIterationBox.Text) + ".yaml", true);
             }
         }
 
@@ -987,28 +1152,40 @@ namespace OpenRa_GA
 
             }
             //MessageBox.Show("Ready to Launch games");
-        List <Process> Processes = new List<Process>();
+            Processes = new List<Process>();
             try
             {
                 for (int x = 0; x < populationSize; x++)
                 {
+                    int repCount = 1;
+                    int FitCount = SQLGetInt("Select count(*) from FitResults where RunId=" + Convert.ToString(textBoxRun.Text)+" and Chromosome='"+population[x]+"'");
+                    if (FitCount < 3)
+                    {
+                        repCount=3-FitCount;
+                    }
                     SetText(GALaunch, x.ToString());
-                    StartGA(Processes, x);
-                    System.Threading.Thread.Sleep(8000);
-                    try {
-                        FileInfo f = new FileInfo(@path + "\\Documents\\OpenRA\\Logs\\exception.log");
-                        if (f.Length != 0) { x--; f.Delete(); } //if we caused an exception, retry the last launch and delete the exception file. 
+                    for (int repStart = repCount; repStart > 0; repStart--)
+                    {
+                        StartGA(Processes, x, repStart);
+                        System.Threading.Thread.Sleep(8000);
+                        try
+                        {
+                            FileInfo f = new FileInfo(@path + "\\Documents\\OpenRA\\Logs\\exception.log");
+                            if (f.Length != 0) { x--; f.Delete(); } //if we caused an exception, retry the last launch and delete the exception file. 
                         }
-                    catch { }
-                    while (getProcessCount(Processes) > 15)
+                        catch { }
+                    }
+                    SetText(TC, Convert.ToString (getProcessCount(Processes)));
+                    //MessageBox.Show(MaxCThread.Text);
+                    while (getProcessCount(Processes) > Convert.ToInt16(MaxCThread.Text))
                     {
                         System.Threading.Thread.Sleep(10000);
                         Processes.ForEach(delegate (Process p)
                         {
                             if (p.HasExited == false)
                             {
-                                MessageBox.Show(p.StartInfo.Arguments+"\n"+Convert.ToString(p.HasExited)+":"+Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
-                                if (DateTime.Now.Subtract(p.StartTime).Minutes > 90)
+                                //MessageBox.Show(p.StartInfo.Arguments+"\n"+Convert.ToString(p.HasExited)+":"+Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
+                                if (DateTime.Now.Subtract(p.StartTime).TotalMinutes  > 45)
                                 {
                                     Regex logs = new Regex(@"GA_(\d+)");
                                     Match match = logs.Match(p.StartInfo.Arguments);
@@ -1018,7 +1195,7 @@ namespace OpenRa_GA
                                         int GA_number= int.Parse(match.Groups[1].Value);
                                         if (Convert.ToInt16(userFunction.Fitresults[GA_number,2])<3)
                                         {
-                                            StartGA(Processes, GA_number);
+                                            StartGA(Processes, GA_number,-1);
                                         }
                                     }
                                 }
@@ -1034,34 +1211,43 @@ namespace OpenRa_GA
                 Boolean done = false;
                 while (done == false)
                 {
+                    SetText(TC, Convert.ToString(getProcessCount(Processes)));
+                    FindFitness(population, true);
                     done = true;
-                    Processes.ForEach(delegate (Process p)
+                    try
                     {
-                        if (p.HasExited == false)
+                        Processes.ForEach(delegate (Process p)
                         {
-                            done = false;
-                            MessageBox.Show(p.StartInfo.Arguments + "\n" + Convert.ToString(p.HasExited) + ":" + Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
-                            if (DateTime.Now.Subtract(p.StartTime).Minutes > 90)
+                            if (p.HasExited == false)
                             {
-                                
-                                Regex logs = new Regex(@"GA_(\d+)");
-                                Match match = logs.Match(p.StartInfo.Arguments);
-                                p.Kill();
-                                if (match.Success)
+                                done = false;
+                            //MessageBox.Show(p.StartInfo.Arguments + "\n" + Convert.ToString(p.HasExited) + ":" + Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
+                            if (DateTime.Now.Subtract(p.StartTime).TotalMinutes > 45)
                                 {
-                                    int GA_number = int.Parse(match.Groups[1].Value);
-                                    if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+
+                                    Regex logs = new Regex(@"GA_(\d+)");
+                                    Match match = logs.Match(p.StartInfo.Arguments);
+                                    p.Kill();
+                                    if (match.Success)
                                     {
-                                        StartGA(Processes, GA_number);
+                                        int GA_number = int.Parse(match.Groups[1].Value);
+                                        if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+                                        {
+                                            StartGA(Processes, GA_number, -2);
+                                        }
                                     }
                                 }
-                            }
                             /*MessageBox.Show(p.StartInfo.Arguments);
                             MessageBox.Show(Convert.ToString(p.HasExited));
                             MessageBox.Show(Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));*/
+                            }
                         }
+                            );
                     }
-                        );
+                    catch
+                    {
+                        done = false;
+                    }
                     System.Threading.Thread.Sleep(10000);
                 }
                 System.Threading.Thread.Sleep(15000);
@@ -1078,18 +1264,18 @@ namespace OpenRa_GA
 
         }
 
-        private void StartGA(List<Process> processes, int GA_Num)
+        private void StartGA(List<Process> processes, int GA_Num, int CopyNum)
         {
             var process = new Process
             {
                 StartInfo = new ProcessStartInfo
                 {
                     //FileName = "OpenRa"
-                    FileName = "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA\\OpenRA.Game.exe",
-                    WorkingDirectory = "C:\\Users\\jgreener\\GIT\\openra\\ESU_OpenRA"
+                    FileName = "C:\\Users\\Administrator\\Documents\\ESU_OpenRA\\OpenRA.Game.exe",
+                    WorkingDirectory = "C:\\Users\\Administrator\\Documents\\ESU_OpenRA"
                 }
             };
-            process.StartInfo.Arguments = "Launch.Ai=\"GA_" + Convert.ToString(GA_Num) + "\" Launch.MapName=\"Forest Path\" Launch.FitnessLog=\"Gen" + Convert.ToString(currentIterationBox.Text) + "GA_" + Convert.ToString(GA_Num) + "\"";
+            process.StartInfo.Arguments = "Launch.Ai=\"GA_" + Convert.ToString(GA_Num) + "\" Launch.MapName=\"Forest Path\" Launch.FitnessLog=\"Run"+ Convert.ToString(textBoxRun.Text)+"_Gen" + Convert.ToString(currentIterationBox.Text) + "GA_" + Convert.ToString(GA_Num) + "_"+Convert.ToString(CopyNum)+"\"";
             process.Start();
             processes.Add(process);
         }
@@ -1103,9 +1289,32 @@ namespace OpenRa_GA
             });
             return activeCount;
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (conn != null)
+            {
+                conn.Close();
+            }
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
-	// Function to optimize
-	public class UserFunction : IFitnessFunction
+    // Function to optimize
+    public class UserFunction : IFitnessFunction
 	{
         public const int Min =0;
         public const int Max = 100;
@@ -1132,7 +1341,7 @@ namespace OpenRa_GA
             {
                 if (chromosome.ToString() == Fitresults[x, 0])
                 {
-                    return Convert.ToInt16(Convert.ToSingle(Fitresults[x, 1])*1000);
+                    return Convert.ToInt16(Convert.ToSingle(Fitresults[x, 1]));
                 }
             }
                 return 1;

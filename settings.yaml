@@ -1,0 +1,19 @@
+Player:
+
+Game:
+	Mod: ra
+
+Sound:
+
+Graphics:
+
+Server:
+	AllowPortForward: False
+
+Debug:
+	UUID: 24fc64dc-b310-450b-97c6-75704e2d2b05
+
+Keys:
+
+Chat:
+

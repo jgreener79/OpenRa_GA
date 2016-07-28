@@ -1,0 +1,937 @@
+          LoadMaps
+    58 ms |   a-path-beyond.oramap
+     6 ms |   alaska-anarchy-redux.oramap
+     4 ms |   all-connected.oramap
+     4 ms |   arctic-triangle-affair.oramap
+    20 ms |   asymmetric-battle.oramap
+     2 ms |   bad-neighbors.oramap
+     3 ms |   barracuda.oramap
+     3 ms |   behind-the-veil.oramap
+     4 ms |   blitzkrieg.oramap
+     5 ms |   bloody-delta.oramap
+     9 ms |   bombardment-islands.oramap
+    11 ms |   caffeinated.oramap
+     3 ms |   calm-before-storm.oramap
+     5 ms |   chaos-canyon.oramap
+     4 ms |   chokepoint.oramap
+     4 ms |   coastal-influence.oramap
+    13 ms |   cold-front-1v1.oramap
+     4 ms |   cold-front.oramap
+     3 ms |   doubles.oramap
+     4 ms |   doughnut.oramap
+     2 ms |   east-vs-west.oramap
+     3 ms |   encounter.oramap
+    10 ms |   engagement.oramap
+     3 ms |   equal-opportunity.oramap
+     6 ms |   first-come-first-served.oramap
+     3 ms |   forest-path.oramap
+     4 ms |   ghost-town.oramap
+    15 ms |   haos-ridges.oramap
+    10 ms |   high-and-low.oramap
+     3 ms |   keep-off-the-grass-2.oramap
+     4 ms |   mad-science.oramap
+     2 ms |   man-to-man.oramap
+     3 ms |   marooned-2.oramap
+     5 ms |   mass-confliction.oramap
+    11 ms |   north-by-northwest.oramap
+     3 ms |   northwestpassage.oramap
+     2 ms |   ore-lord.oramap
+     5 ms |   pool-party.oramap
+     4 ms |   pressure.oramap
+    10 ms |   puddles-redux.oramap
+     4 ms |   regeneration-basin.oramap
+    16 ms |   Sahara.oramap
+     6 ms |   seaside-2.oramap
+     4 ms |   sidestep.oramap
+     2 ms |   singles.oramap
+    11 ms |   snowy-island.oramap
+     2 ms |   snowy-ridge.oramap
+     3 ms |   sudden-death.oramap
+     2 ms |   suffrage.oramap
+     2 ms |   sunstroke.oramap
+     3 ms |   synergy.oramap
+     9 ms |   tabula-rasa.oramap
+     4 ms |   tainted-peak.oramap
+     5 ms |   temperal.oramap
+     4 ms |   tournament-island.oramap
+     4 ms |   vegetation.oramap
+     2 ms |   warwind.oramap
+     9 ms |   winter-storm.oramap
+     5 ms |   allies-01
+     4 ms |   allies-02
+    22 ms |   allies-03a
+     5 ms |   allies-03b
+     6 ms |   allies-05a
+     3 ms |   bomber-john
+    16 ms |   center-of-attention-redux-2
+     5 ms |   desert-shellmap
+     2 ms |   drop-zone
+     2 ms |   drop-zone-battle-of-tikiaki
+     2 ms |   drop-zone-w
+     4 ms |   fort-lonestar
+     7 ms |   intervention
+     4 ms |   koth-hopes-anchor
+    21 ms |   monster-tank-madness
+     4 ms |   poland-raid
+     3 ms |   snow town
+     4 ms |   soviet-01
+     4 ms |   soviet-02a
+    28 ms |   soviet-02b
+     6 ms |   soviet-03
+    13 ms |   soviet-04a
+     5 ms |   soviet-04b
+     5 ms |   soviet-05
+     5 ms |   soviet-06a
+     5 ms |   soviet-06b
+     5 ms |   soviet-07
+     5 ms |   survival01
+    20 ms |   survival02
+     3 ms |   training-camp
+   600 ms --------------------------------------------------
+          StartGame
+          |   PrepareMap
+          |   |   Map
+    15 ms |   |   |   LoadSequences
+    25 ms |   |   |   new Sequence("ss")
+    24 ms |   |   |   new Sequence("e1")
+    27 ms |   |   |   new Sequence("sniper")
+    21 ms |   |   |   new Sequence("e3")
+    20 ms |   |   |   new Sequence("gnrl")
+  3695 ms |   |   ------------------------------------------
+   117 ms |   |   Map.Music
+  3829 ms |   ----------------------------------------------
+   438 ms |   NewWorld
+          |   LoadComplete
+     0 ms |   |   ScreenMap.WorldLoaded
+     1 ms |   |   DevCommands.WorldLoaded
+     0 ms |   |   PlayerCommands.WorldLoaded
+     0 ms |   |   HelpCommand.WorldLoaded
+          |   |   DomainIndex.WorldLoaded
+    74 ms |   |   |   BuildDomains: Desert Shellmap for movement class 699
+    67 ms |   |   |   BuildDomains: Desert Shellmap for movement class 4096
+   159 ms |   |   ------------------------------------------
+     2 ms |   |   ResourceClaimLayer.WorldLoaded
+  1711 ms |   |   SpawnMapActors.WorldLoaded
+  1876 ms |   ----------------------------------------------
+  6216 ms --------------------------------------------------
+          PrepareMap
+          |   Map
+    18 ms |   |   LoadSequences
+    21 ms |   |   new Sequence("e3")
+    21 ms |   |   new Sequence("gnrl")
+   902 ms |   ----------------------------------------------
+    10 ms |   Map.Music
+   927 ms --------------------------------------------------
+    32 ms NewWorld
+          LoadComplete
+     0 ms |   DevCommands.WorldLoaded
+     0 ms |   PlayerCommands.WorldLoaded
+     0 ms |   HelpCommand.WorldLoaded
+          |   DomainIndex.WorldLoaded
+    63 ms |   |   BuildDomains: Forest Path for movement class 351
+    48 ms |   |   BuildDomains: Forest Path for movement class 2048
+   112 ms |   ----------------------------------------------
+     0 ms |   ResourceClaimLayer.WorldLoaded
+    48 ms |   SpawnMapActors.WorldLoaded
+    42 ms |   MPStartLocations.WorldLoaded
+     9 ms |   SpawnMPUnits.WorldLoaded
+   211 ms --------------------------------------------------
+     2 ms [1] Trait: world->ActorMap
+     6 ms [1] Trait: player->PlayerResources
+     2 ms [1] Trait: player->EnemyWatcher
+     1 ms [1] Trait: player->ConquestVictoryConditions
+     2 ms [1] Trait: player->FrozenActorLayer
+     1 ms [1] Trait: player->ClassicProductionQueue
+    27 ms [1] Trait: player->HackyAI
+     3 ms [1] Trait: player->ConquestVictoryConditions
+     7 ms [1] Trait: player->FrozenActorLayer
+    16 ms [1] Trait: mine->SeedsResource
+     1 ms [1] Trait: mine->SeedsResource
+     2 ms [1] Trait: mcv->UpgradeManager
+    11 ms [7] Trait: player->HackyAI
+     2 ms [8] Trait: player->HackyAI
+     1 ms [14] Activity: CallFunc
+     4 ms [14] Activity: CallFunc
+     1 ms [15] Trait: fact->FrozenUnderFog
+     2 ms [30] Trait: player->HackyAI
+     2 ms [129] Trait: player->HackyAI
+     2 ms [131] Trait: player->HackyAI
+     2 ms [136] Trait: player->ClassicProductionQueue
+     7 ms [241] Trait: player->ConquestVictoryConditions
+     8 ms [328] Trait: player->HackyAI
+     1 ms [337] Trait: player->HackyAI
+    43 ms [573] Trait: player->HackyAI
+   192 ms [1182] Trait: player->ConquestVictoryConditions
+     6 ms [1183] Trait: player->HackyAI
+    47 ms [1190] Activity: CallFunc
+    11 ms [1190] Activity: FindResources
+    17 ms [1190] Activity: Move
+     1 ms [1190] Trait: harv->WithHarvestAnimation
+     2 ms [1210] Activity: Move
+     6 ms [1210] Activity: MoveFirstHalf
+     9 ms [1220] Activity: MoveFirstHalf
+     2 ms [1230] Activity: MoveSecondHalf
+     2 ms [1253] Activity: HarvestResource
+   152 ms [1258] Trait: tc01->RenderSprites
+     2 ms [1261] Activity: HarvestResource
+     2 ms [1394] Trait: player->HackyAI
+     1 ms [1398] Trait: player->HackyAI
+     1 ms [1400] Activity: FindResources
+     1 ms [1427] Activity: FindResources
+   190 ms [1455] Trait: player->HackyAI
+     2 ms [1492] Activity: DeliverResources
+     4 ms [1500] Trait: world->CrateSpawner
+     3 ms [1501] Activity: Fly
+     2 ms [1501] Trait: player->HackyAI
+     1 ms [1501] Trait: player->HackyAI
+     2 ms [1501] Trait: badr->Contrail
+     1 ms [1502] Trait: badr->Aircraft
+     2 ms [1556] Trait: badr->ParaDrop
+     2 ms [1559] Trait: badr->ParaDrop
+     1 ms [1560] Activity: Parachute
+   198 ms [1592] Activity: MoveFirstHalf
+     2 ms [1620] Activity: DeliverResources
+     2 ms [1630] Activity: SpriteHarvesterDockSequence
+     1 ms [1636] Activity: SpriteHarvesterDockSequence
+     3 ms [1637] Activity: SpriteHarvesterDockSequence
+     3 ms [1640] Trait: player->HackyAI
+     3 ms [1659] Activity: Parachute
+     2 ms [1680] Trait: player->HackyAI
+     2 ms [1865] Trait: e3->Armament
+    10 ms [1875] Activity: AttackMoveActivity
+     3 ms [2053] Trait: player->HackyAI
+     1 ms [2060] Trait: gun->AttackTurreted
+   199 ms [2243] Trait: t17->RenderSprites
+     3 ms [2321] Trait: pbox->AttackGarrisoned
+   192 ms [2394] Trait: player->HackyAI
+     2 ms [2498] Trait: player->HackyAI
+     2 ms [2504] Activity: FindResources
+     2 ms [2512] Activity: FindResources
+     6 ms [2562] Trait: player->ClassicProductionQueue
+     2 ms [2619] Trait: player->HackyAI
+     1 ms [2922] Activity: FindResources
+     6 ms [3052] Activity: MoveFirstHalf
+     6 ms [3052] Activity: AttackMoveActivity
+    31 ms [3227] Trait: player->HackyAI
+   191 ms [3272] Trait: player->HackyAI
+     6 ms [3305] Trait: player->PlayerResources
+     1 ms [3676] Activity: FindResources
+   192 ms [3684] Trait: player->PlayerResources
+     2 ms [3930] Trait: player->HackyAI
+   194 ms [3949] Trait: world->ActorMap
+     1 ms [4159] Activity: FindResources
+   191 ms [4218] Trait: harv->WithHarvestAnimation
+     1 ms [4260] Activity: FindResources
+     1 ms [4368] Activity: FindResources
+   150 ms [4482] Trait: player->ClassicProductionQueue
+     2 ms [4535] Activity: FindResources
+    46 ms [4967] Trait: player->HackyAI
+     6 ms [5615] Trait: player->ClassicProductionQueue
+   193 ms [5629] Trait: harv->RevealsShroud
+   190 ms [5999] Trait: player->PlayerResources
+     4 ms [6132] Trait: proc->RevealsShroud
+     1 ms [6618] Activity: DeliverResources
+     2 ms [7622] Trait: dome->ProvidesRadar
+     7 ms [7662] Activity: FindResources
+     7 ms [7810] Activity: MoveSecondHalf
+     6 ms [8145] Trait: player->HackyAI
+     5 ms [8368] Trait: player->HackyAI
+     6 ms [8615] Trait: player->HackyAI
+     6 ms [9255] Trait: player->ConquestVictoryConditions
+     1 ms [9298] Trait: player->HackyAI
+     1 ms [9331] Trait: player->HackyAI
+     1 ms [9640] Trait: player->HackyAI
+     1 ms [10067] Trait: player->HackyAI
+     1 ms [10203] Trait: pbox->RenderSprites
+     3 ms [10208] Trait: player->HackyAI
+     1 ms [10231] Trait: player->HackyAI
+     2 ms [10362] Activity: FindResources
+     6 ms [10471] Trait: player->PlayerResources
+     3 ms [10492] Activity: FindResources
+     6 ms [10558] Trait: crate->RenderSprites
+     1 ms [10743] Trait: 1tnk->UpgradeManager
+     6 ms [10905] Trait: player->PlayerResources
+    10 ms [10975] Trait: player->HackyAI
+     1 ms [11072] Trait: pbox->RepairableBuilding
+     7 ms [11180] Trait: player->ClassicProductionQueue
+     4 ms [11274] Activity: FindResources
+     1 ms [11687] Trait: player->FrozenActorLayer
+     1 ms [11733] Trait: player->HackyAI
+     7 ms [11759] Activity: FindResources
+     2 ms [11884] Activity: FindResources
+     6 ms [11897] Trait: player->FrozenActorLayer
+     4 ms [11904] Activity: FindResources
+     6 ms [12171] Trait: harv->RevealsShroud
+     6 ms [12446] Trait: player->ClassicProductionQueue
+    30 ms [12573] Trait: player->HackyAI
+     5 ms [12594] Trait: player->HackyAI
+     1 ms [12598] Activity: Move
+     1 ms [12598] Activity: AttackMoveActivity
+     1 ms [12598] Activity: Move
+     1 ms [12598] Activity: AttackMoveActivity
+     1 ms [12598] Activity: Move
+     1 ms [12598] Activity: AttackMoveActivity
+     1 ms [12601] Activity: Move
+     1 ms [12601] Activity: AttackMoveActivity
+     2 ms [12601] Activity: Move
+     2 ms [12601] Activity: AttackMoveActivity
+     2 ms [12601] Activity: Move
+     2 ms [12601] Activity: AttackMoveActivity
+     2 ms [12601] Activity: Move
+     2 ms [12601] Activity: AttackMoveActivity
+     1 ms [12601] Activity: Move
+     1 ms [12601] Activity: AttackMoveActivity
+     3 ms [12601] Activity: Move
+     3 ms [12601] Activity: AttackMoveActivity
+     2 ms [12601] Activity: Move
+     2 ms [12601] Activity: AttackMoveActivity
+     1 ms [12601] Activity: Move
+     1 ms [12601] Activity: AttackMoveActivity
+     1 ms [12601] Activity: Move
+     1 ms [12601] Activity: AttackMoveActivity
+     2 ms [12601] Activity: Move
+     2 ms [12601] Activity: AttackMoveActivity
+     1 ms [12608] Activity: Move
+     1 ms [12608] Activity: AttackMoveActivity
+     1 ms [12622] Activity: AttackMoveActivity
+     1 ms [12623] Activity: Move
+     1 ms [12623] Activity: AttackMoveActivity
+     5 ms [12624] Trait: player->HackyAI
+     1 ms [12637] Activity: Move
+     1 ms [12637] Activity: AttackMoveActivity
+     1 ms [12638] Activity: Move
+     1 ms [12638] Activity: AttackMoveActivity
+     8 ms [12658] Activity: Move
+     8 ms [12658] Activity: AttackMoveActivity
+     1 ms [12667] Activity: Move
+     1 ms [12667] Activity: AttackMoveActivity
+     1 ms [12668] Activity: Move
+     1 ms [12668] Activity: AttackMoveActivity
+     1 ms [12676] Activity: Move
+     1 ms [12676] Activity: AttackMoveActivity
+     1 ms [12684] Activity: Move
+     1 ms [12684] Activity: AttackMoveActivity
+     2 ms [12684] Trait: player->HackyAI
+     1 ms [12688] Activity: Move
+     1 ms [12688] Activity: AttackMoveActivity
+     2 ms [12725] Activity: Move
+     2 ms [12725] Activity: AttackMoveActivity
+     2 ms [12733] Activity: Move
+     2 ms [12733] Activity: AttackMoveActivity
+     2 ms [12771] Activity: Move
+     2 ms [12771] Activity: AttackMoveActivity
+     2 ms [12773] Activity: Move
+     2 ms [12773] Activity: AttackMoveActivity
+     7 ms [12832] Trait: player->HackyAI
+     1 ms [12901] Activity: Move
+     1 ms [12901] Activity: AttackMoveActivity
+     4 ms [12917] Activity: MoveFirstHalf
+     4 ms [12917] Activity: AttackMoveActivity
+     1 ms [12930] Activity: FindResources
+     9 ms [12946] Trait: 1tnk->RevealsShroud
+     3 ms [12955] Activity: FindResources
+     7 ms [13042] Trait: jeep->RevealsShroud
+     1 ms [13090] Activity: FindResources
+     6 ms [13148] Activity: AttackMoveActivity
+     1 ms [13200] Activity: Move
+     1 ms [13200] Activity: AttackMoveActivity
+     1 ms [13201] Activity: Move
+     1 ms [13201] Activity: AttackMoveActivity
+     1 ms [13201] Activity: Move
+     1 ms [13201] Activity: AttackMoveActivity
+     1 ms [13201] Activity: AttackMoveActivity
+     1 ms [13204] Activity: Move
+     1 ms [13204] Activity: AttackMoveActivity
+     2 ms [13212] Activity: FindResources
+     7 ms [13238] Activity: Move
+     6 ms [13328] Trait: e1->RevealsShroud
+     1 ms [13390] Activity: Move
+     4 ms [13407] Activity: Move
+     4 ms [13407] Activity: AttackMoveActivity
+     1 ms [13419] Activity: Move
+     1 ms [13419] Activity: AttackMoveActivity
+     1 ms [13421] Activity: FindResources
+     7 ms [13428] Trait: player->ClassicProductionQueue
+     6 ms [13554] Activity: Attack
+     2 ms [13555] Activity: Move
+    10 ms [13555] Activity: Attack
+     4 ms [13555] Effect: Bullet
+    18 ms [13557] Effect: Bullet
+     4 ms [13571] Activity: Attack
+     8 ms [13571] Effect: Missile
+     7 ms [13587] Effect: Missile
+     7 ms [13612] Trait: e1->RevealsShroud
+     1 ms [13629] Activity: Attack
+     4 ms [13629] Activity: Move
+     7 ms [13629] Activity: MoveWithinRange
+     1 ms [13655] Activity: Move
+     1 ms [13655] Activity: MoveWithinRange
+     2 ms [13666] Activity: Move
+     2 ms [13666] Activity: AttackMoveActivity
+     2 ms [13668] Activity: AttackActivity
+     1 ms [13669] Trait: jeep->AttackTurreted
+     1 ms [13672] Activity: Move
+     1 ms [13672] Activity: MoveWithinRange
+     1 ms [13696] Activity: Move
+     1 ms [13696] Activity: AttackMoveActivity
+     1 ms [13700] Activity: Move
+     1 ms [13700] Activity: MoveWithinRange
+     1 ms [13734] Activity: Move
+     1 ms [13734] Activity: MoveWithinRange
+     1 ms [13737] Effect: Bullet
+    11 ms [13741] Effect: Missile
+     3 ms [13742] Trait: player->FrozenActorLayer
+     1 ms [13746] Effect: Bullet
+     6 ms [13764] Activity: Move
+     6 ms [13764] Activity: AttackMoveActivity
+     1 ms [13769] Activity: Move
+     1 ms [13769] Activity: MoveWithinRange
+     1 ms [13771] Activity: Move
+     1 ms [13771] Activity: MoveWithinRange
+     1 ms [13779] Activity: Move
+     1 ms [13779] Activity: MoveWithinRange
+     1 ms [13781] Activity: Move
+     1 ms [13781] Activity: MoveWithinRange
+     1 ms [13783] Activity: Move
+     1 ms [13783] Activity: MoveWithinRange
+     1 ms [13785] Activity: Move
+     1 ms [13785] Activity: MoveWithinRange
+     2 ms [13796] Effect: Bullet
+     8 ms [13797] Effect: Bullet
+     1 ms [13803] Activity: Move
+     1 ms [13803] Activity: MoveWithinRange
+     1 ms [13809] Activity: Move
+     1 ms [13809] Activity: MoveWithinRange
+     1 ms [13817] Activity: Move
+     1 ms [13817] Activity: MoveWithinRange
+     1 ms [13819] Activity: Move
+     1 ms [13819] Activity: MoveWithinRange
+     1 ms [13820] Effect: Missile
+     1 ms [13821] Activity: Move
+     1 ms [13821] Activity: MoveWithinRange
+     1 ms [13825] Activity: Move
+     1 ms [13825] Activity: MoveWithinRange
+     1 ms [13831] Activity: Move
+     1 ms [13831] Activity: MoveWithinRange
+     1 ms [13833] Activity: Move
+     1 ms [13833] Activity: MoveWithinRange
+     1 ms [13835] Activity: Move
+     1 ms [13835] Activity: MoveWithinRange
+     1 ms [13839] Activity: Move
+     1 ms [13839] Activity: MoveWithinRange
+     3 ms [13845] Effect: Bullet
+     5 ms [13861] Activity: Move
+     5 ms [13861] Activity: AttackMoveActivity
+     7 ms [13878] Activity: Move
+     7 ms [13878] Activity: MoveWithinRange
+     2 ms [13885] Activity: MoveFirstHalf
+     2 ms [13885] Activity: AttackMoveActivity
+     6 ms [13901] Effect: Bullet
+     1 ms [13903] Activity: Move
+     1 ms [13903] Activity: MoveWithinRange
+     2 ms [13914] Activity: MoveSecondHalf
+     2 ms [13914] Activity: AttackMoveActivity
+     3 ms [13944] Trait: player->HackyAI
+     2 ms [13965] Effect: Bullet
+     1 ms [13974] Trait: player->HackyAI
+     5 ms [13981] Trait: player->HackyAI
+     1 ms [13990] Effect: Bullet
+     1 ms [14004] Trait: player->HackyAI
+     8 ms [14024] Effect: Bullet
+     1 ms [14034] Trait: player->HackyAI
+     1 ms [14064] Trait: player->HackyAI
+     3 ms [14096] Activity: FindResources
+     4 ms [14101] Activity: FindResources
+     1 ms [14124] Trait: player->HackyAI
+    16 ms [14128] Trait: player->HackyAI
+     4 ms [14149] Activity: Move
+     4 ms [14149] Activity: MoveWithinRange
+     1 ms [14154] Trait: player->HackyAI
+     4 ms [14159] Activity: Move
+     4 ms [14159] Activity: MoveWithinRange
+     1 ms [14161] Activity: Move
+     1 ms [14161] Activity: MoveWithinRange
+     2 ms [14184] Trait: player->HackyAI
+     1 ms [14188] Activity: Move
+     1 ms [14188] Activity: MoveWithinRange
+     1 ms [14188] Activity: Move
+     1 ms [14188] Activity: MoveWithinRange
+     1 ms [14191] Activity: Move
+     1 ms [14191] Activity: MoveWithinRange
+     3 ms [14197] Activity: Move
+     3 ms [14197] Activity: MoveWithinRange
+     1 ms [14198] Activity: Move
+     1 ms [14198] Activity: MoveWithinRange
+     1 ms [14205] Activity: Move
+     1 ms [14205] Activity: MoveWithinRange
+     7 ms [14209] Activity: MoveWithinRange
+     1 ms [14209] Activity: Move
+     1 ms [14209] Activity: MoveWithinRange
+     1 ms [14212] Activity: Move
+     1 ms [14212] Activity: MoveWithinRange
+     1 ms [14213] Activity: Move
+     1 ms [14213] Activity: MoveWithinRange
+     1 ms [14217] Activity: Move
+     1 ms [14217] Activity: MoveWithinRange
+     2 ms [14220] Activity: Move
+     2 ms [14220] Activity: MoveWithinRange
+     2 ms [14222] Activity: Move
+     2 ms [14222] Activity: MoveWithinRange
+     1 ms [14233] Activity: Move
+     1 ms [14233] Activity: MoveWithinRange
+     1 ms [14267] Activity: Move
+     1 ms [14267] Activity: MoveWithinRange
+     7 ms [14295] Activity: Attack
+   190 ms [14324] Activity: Move
+     2 ms [14394] Trait: player->HackyAI
+   116 ms [14396] Activity: MoveFirstHalf
+   116 ms [14396] Activity: MoveWithinRange
+     1 ms [14398] Activity: Move
+     1 ms [14398] Activity: MoveWithinRange
+     1 ms [14398] Activity: Move
+     1 ms [14398] Activity: MoveWithinRange
+     1 ms [14401] Activity: Move
+     1 ms [14401] Activity: MoveWithinRange
+     1 ms [14401] Activity: Move
+     1 ms [14401] Activity: MoveWithinRange
+     1 ms [14411] Activity: Move
+     1 ms [14411] Activity: MoveWithinRange
+     1 ms [14418] Activity: Move
+     1 ms [14418] Activity: MoveWithinRange
+     1 ms [14419] Activity: Move
+     1 ms [14419] Activity: MoveWithinRange
+     1 ms [14422] Activity: Move
+     1 ms [14422] Activity: MoveWithinRange
+     1 ms [14422] Activity: Move
+     1 ms [14422] Activity: MoveWithinRange
+     1 ms [14424] Trait: player->HackyAI
+     1 ms [14454] Trait: player->HackyAI
+     7 ms [14480] Trait: player->ClassicProductionQueue
+     1 ms [14484] Trait: player->HackyAI
+     6 ms [14489] Trait: player->HackyAI
+     1 ms [14514] Trait: player->HackyAI
+     1 ms [14544] Trait: player->HackyAI
+     1 ms [14574] Trait: player->HackyAI
+     1 ms [14604] Trait: player->HackyAI
+     1 ms [14616] Activity: Move
+     1 ms [14616] Activity: MoveWithinRange
+     2 ms [14634] Trait: player->HackyAI
+     1 ms [14638] Activity: Move
+     1 ms [14638] Activity: MoveWithinRange
+     1 ms [14641] Activity: Move
+     1 ms [14641] Activity: MoveWithinRange
+     1 ms [14659] Activity: Move
+     1 ms [14659] Activity: MoveWithinRange
+     8 ms [14661] Trait: 2tnk->AttackTurreted
+     1 ms [14664] Activity: Move
+     1 ms [14664] Activity: MoveWithinRange
+     2 ms [14727] Effect: Smoke
+     2 ms [14784] Trait: player->HackyAI
+     4 ms [14799] Activity: FindResources
+     1 ms [14810] Activity: Move
+     1 ms [14810] Activity: MoveWithinRange
+     4 ms [14811] Activity: FindResources
+     1 ms [14814] Trait: player->HackyAI
+     1 ms [14833] Activity: Move
+     1 ms [14833] Activity: MoveWithinRange
+     3 ms [14834] Activity: FindResources
+     9 ms [14835] Effect: Missile
+     1 ms [14839] Activity: Move
+     1 ms [14839] Activity: MoveWithinRange
+     1 ms [14844] Trait: player->HackyAI
+     1 ms [14851] Trait: player->HackyAI
+     4 ms [14854] Activity: Move
+     4 ms [14854] Activity: MoveWithinRange
+     4 ms [14856] Activity: Move
+     4 ms [14856] Activity: MoveWithinRange
+     1 ms [14863] Activity: Move
+     1 ms [14863] Activity: MoveWithinRange
+     1 ms [14864] Activity: Move
+     1 ms [14864] Activity: MoveWithinRange
+     1 ms [14867] Activity: MoveWithinRange
+     4 ms [14885] Activity: Move
+     4 ms [14885] Activity: MoveWithinRange
+     3 ms [14888] Activity: Move
+     4 ms [14888] Activity: MoveWithinRange
+     1 ms [14890] Activity: Move
+     1 ms [14890] Activity: MoveWithinRange
+     1 ms [14894] Activity: MoveWithinRange
+     1 ms [14904] Trait: player->HackyAI
+   157 ms [14931] Trait: e3->WithInfantryBody
+     1 ms [14934] Trait: player->HackyAI
+     1 ms [14964] Trait: player->HackyAI
+     1 ms [14967] Effect: Missile
+     2 ms [14987] Trait: player->SupportPowerManager
+     1 ms [15000] Trait: player->HackyAI
+     7 ms [15003] Trait: 2tnk->AttackTurreted
+   198 ms [15006] Activity: MoveFirstHalf
+   191 ms [15092] Activity: Move
+     7 ms [15122] Activity: Attack
+     1 ms [15151] Activity: Move
+     1 ms [15151] Activity: MoveWithinRange
+     2 ms [15223] Effect: Bullet
+   191 ms [15256] Trait: world->ActorMap
+     7 ms [15348] Trait: 1tnk->AttackTurreted
+     4 ms [15354] Effect: Bullet
+     9 ms [15485] Trait: e1->WithInfantryBody
+     1 ms [15568] Activity: MoveWithinRange
+     1 ms [15587] Activity: MoveWithinRange
+     3 ms [15718] Activity: Move
+     3 ms [15718] Activity: MoveWithinRange
+     3 ms [15722] Activity: Move
+     3 ms [15722] Activity: MoveWithinRange
+     3 ms [15728] Activity: Move
+     3 ms [15728] Activity: MoveWithinRange
+     1 ms [15774] Trait: player->HackyAI
+     1 ms [15885] Activity: FindResources
+     3 ms [15995] Activity: Move
+     3 ms [15995] Activity: MoveWithinRange
+     3 ms [16021] Activity: Move
+     3 ms [16021] Activity: MoveWithinRange
+     3 ms [16047] Activity: Move
+     3 ms [16047] Activity: MoveWithinRange
+     6 ms [16061] Effect: Bullet
+     2 ms [16100] Activity: Move
+     1 ms [16301] Activity: Move
+     1 ms [16301] Activity: MoveWithinRange
+     1 ms [16341] Activity: Move
+     1 ms [16341] Activity: MoveWithinRange
+     7 ms [16440] Trait: harv->WithHarvestAnimation
+     2 ms [16478] Effect: Bullet
+     1 ms [16591] Activity: Move
+     1 ms [16591] Activity: MoveWithinRange
+     1 ms [16618] Activity: Move
+     1 ms [16618] Activity: MoveWithinRange
+     1 ms [16631] Activity: Move
+     1 ms [16631] Activity: MoveWithinRange
+     1 ms [16638] Activity: Move
+     1 ms [16638] Activity: MoveWithinRange
+     7 ms [16708] Trait: player->HackyAI
+     1 ms [16978] Activity: Move
+     1 ms [16978] Activity: MoveWithinRange
+     1 ms [16999] Activity: Move
+     1 ms [16999] Activity: MoveWithinRange
+     2 ms [17048] Trait: player->HackyAI
+     6 ms [17235] Activity: Attack
+     7 ms [17368] Trait: player->PlayerResources
+     4 ms [17490] Trait: player->HackyAI
+     1 ms [17535] Trait: stnk->Cloak
+   194 ms [17616] Trait: player->HackyAI
+     8 ms [17632] Activity: Attack
+     2 ms [17844] Trait: player->HackyAI
+     2 ms [18293] Trait: player->HackyAI
+     2 ms [18298] Trait: player->HackyAI
+     1 ms [18299] Activity: FindResources
+     1 ms [18313] Activity: FindResources
+     1 ms [18878] Activity: FindResources
+     1 ms [18915] Activity: MoveFirstHalf
+     3 ms [19120] Activity: FindResources
+     1 ms [19438] Activity: Move
+     1 ms [19438] Activity: AttackMoveActivity
+     1 ms [19438] Activity: Move
+     1 ms [19438] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     2 ms [19441] Activity: Move
+     2 ms [19441] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     1 ms [19441] Activity: Move
+     1 ms [19441] Activity: AttackMoveActivity
+     1 ms [19444] Activity: Move
+     1 ms [19444] Activity: AttackMoveActivity
+     1 ms [19444] Activity: Move
+     2 ms [19444] Activity: AttackMoveActivity
+     1 ms [19447] Activity: Move
+     1 ms [19447] Activity: AttackMoveActivity
+     1 ms [19447] Activity: Move
+     1 ms [19447] Activity: AttackMoveActivity
+     1 ms [19447] Activity: Move
+     1 ms [19447] Activity: AttackMoveActivity
+     1 ms [19463] Activity: Move
+     1 ms [19463] Activity: AttackMoveActivity
+     2 ms [19482] Activity: Move
+     2 ms [19482] Activity: AttackMoveActivity
+     1 ms [19579] Activity: FindResources
+     6 ms [19614] Trait: player->HackyAI
+     6 ms [19717] Activity: MoveFirstHalf
+     6 ms [19717] Activity: AttackMoveActivity
+     6 ms [19825] Trait: harv->WithHarvestAnimation
+     4 ms [19856] Activity: Move
+     1 ms [19858] Activity: Move
+     1 ms [19858] Activity: AttackMoveActivity
+     1 ms [19862] Activity: AttackMoveActivity
+     1 ms [19868] Activity: Move
+     1 ms [19868] Activity: AttackMoveActivity
+     1 ms [19871] Activity: Move
+     1 ms [19871] Activity: AttackMoveActivity
+     1 ms [19874] Activity: AttackMoveActivity
+     6 ms [20031] Trait: player->PlayerResources
+     1 ms [20075] Activity: Move
+     1 ms [20075] Activity: AttackMoveActivity
+    40 ms [20104] Trait: player->ClassicProductionQueue
+     1 ms [20120] Activity: Move
+     1 ms [20120] Activity: AttackMoveActivity
+     6 ms [20142] Activity: Move
+     7 ms [20142] Activity: AttackMoveActivity
+     2 ms [20242] Trait: e1->RevealsShroud
+     5 ms [20408] Activity: Move
+     5 ms [20408] Activity: AttackMoveActivity
+     4 ms [20419] Activity: Move
+     4 ms [20419] Activity: AttackMoveActivity
+     8 ms [20489] Trait: jeep->RevealsShroud
+     4 ms [20537] Activity: FindResources
+     3 ms [20547] Activity: FindResources
+     1 ms [20574] Trait: player->HackyAI
+     3 ms [20582] Activity: Move
+     3 ms [20582] Activity: AttackMoveActivity
+     3 ms [20582] Activity: MoveWithinRange
+     1 ms [20604] Trait: player->HackyAI
+     3 ms [20617] Activity: Move
+     3 ms [20617] Activity: MoveWithinRange
+     3 ms [20624] Activity: Move
+     3 ms [20624] Activity: MoveWithinRange
+     3 ms [20642] Activity: Move
+     3 ms [20642] Activity: MoveWithinRange
+     3 ms [20651] Activity: Move
+     3 ms [20651] Activity: MoveWithinRange
+     1 ms [20678] Activity: Move
+     1 ms [20678] Activity: MoveWithinRange
+     1 ms [20702] Activity: Move
+     1 ms [20702] Activity: MoveWithinRange
+     3 ms [20773] Activity: Move
+     3 ms [20773] Activity: MoveWithinRange
+     7 ms [20774] Activity: MoveWithinRange
+     1 ms [20776] Activity: Move
+     1 ms [20776] Activity: MoveWithinRange
+     1 ms [20814] Trait: player->HackyAI
+     1 ms [20818] Activity: Move
+     1 ms [20818] Activity: MoveWithinRange
+     1 ms [20818] Activity: Move
+     1 ms [20818] Activity: MoveWithinRange
+     1 ms [20821] Activity: Move
+     1 ms [20821] Activity: MoveWithinRange
+     1 ms [20821] Activity: Move
+     1 ms [20821] Activity: MoveWithinRange
+     1 ms [20821] Activity: Move
+     1 ms [20821] Activity: MoveWithinRange
+     1 ms [20821] Activity: Move
+     1 ms [20821] Activity: MoveWithinRange
+     1 ms [20821] Activity: Move
+     1 ms [20821] Activity: MoveWithinRange
+     1 ms [20824] Activity: Move
+     1 ms [20824] Activity: MoveWithinRange
+     1 ms [20824] Activity: Move
+     1 ms [20824] Activity: MoveWithinRange
+     1 ms [20827] Activity: Move
+     1 ms [20827] Activity: MoveWithinRange
+     1 ms [20827] Activity: Move
+     1 ms [20827] Activity: MoveWithinRange
+     1 ms [20831] Activity: Move
+     1 ms [20831] Activity: MoveWithinRange
+     2 ms [20832] Activity: Move
+     2 ms [20832] Activity: MoveWithinRange
+     2 ms [20837] Activity: Move
+     2 ms [20837] Activity: MoveWithinRange
+     2 ms [20839] Activity: Move
+     2 ms [20839] Activity: MoveWithinRange
+     2 ms [20842] Activity: Move
+     2 ms [20842] Activity: MoveWithinRange
+     1 ms [20842] Activity: Move
+     1 ms [20842] Activity: MoveWithinRange
+     2 ms [20843] Trait: player->ClassicProductionQueue
+     1 ms [20851] Activity: Move
+     2 ms [20851] Activity: MoveWithinRange
+     1 ms [20851] Activity: Move
+     1 ms [20851] Activity: MoveWithinRange
+     1 ms [20851] Activity: Move
+     1 ms [20851] Activity: MoveWithinRange
+     8 ms [20852] Activity: Move
+     9 ms [20852] Activity: MoveWithinRange
+     2 ms [20855] Activity: Move
+     2 ms [20855] Activity: MoveWithinRange
+     1 ms [20855] Activity: Move
+     1 ms [20855] Activity: MoveWithinRange
+     1 ms [20857] Activity: Move
+     1 ms [20857] Activity: MoveWithinRange
+     1 ms [20880] Activity: Move
+     1 ms [20880] Activity: MoveWithinRange
+     1 ms [20881] Activity: Move
+     1 ms [20881] Activity: MoveWithinRange
+     1 ms [20885] Activity: Move
+     1 ms [20885] Activity: MoveWithinRange
+     2 ms [20889] Activity: Move
+     2 ms [20889] Activity: MoveWithinRange
+     1 ms [20895] Activity: Move
+     1 ms [20895] Activity: MoveWithinRange
+     4 ms [20914] Activity: Move
+     4 ms [20914] Activity: MoveWithinRange
+     2 ms [20914] Trait: e1->WithRankDecoration
+     4 ms [20917] Activity: Move
+     4 ms [20917] Activity: MoveWithinRange
+     4 ms [20922] Activity: Move
+     4 ms [20922] Activity: MoveWithinRange
+     1 ms [20942] Activity: Move
+     1 ms [20942] Activity: MoveWithinRange
+     2 ms [20946] Activity: Move
+     2 ms [20946] Activity: MoveWithinRange
+     1 ms [20949] Activity: Move
+     1 ms [20949] Activity: MoveWithinRange
+     2 ms [20972] Activity: Move
+     2 ms [20972] Activity: MoveWithinRange
+     1 ms [20979] Activity: Move
+     1 ms [20979] Activity: MoveWithinRange
+     1 ms [20983] Activity: Move
+     1 ms [20983] Activity: MoveWithinRange
+     7 ms [20989] Activity: Move
+     7 ms [20989] Activity: MoveWithinRange
+     2 ms [21006] Activity: Move
+     2 ms [21006] Activity: MoveWithinRange
+     1 ms [21007] Activity: Move
+     1 ms [21007] Activity: MoveWithinRange
+     1 ms [21030] Activity: Move
+     1 ms [21030] Activity: MoveWithinRange
+     4 ms [21033] Activity: Move
+     4 ms [21033] Activity: MoveWithinRange
+     4 ms [21036] Activity: Move
+     4 ms [21036] Activity: MoveWithinRange
+     4 ms [21041] Activity: Move
+     4 ms [21041] Activity: MoveWithinRange
+     1 ms [21041] Activity: Move
+     1 ms [21041] Activity: MoveWithinRange
+     1 ms [21072] Activity: Move
+     1 ms [21072] Activity: MoveWithinRange
+     4 ms [21072] Activity: Move
+     4 ms [21072] Activity: MoveWithinRange
+     4 ms [21074] Activity: Move
+     4 ms [21074] Activity: MoveWithinRange
+     5 ms [21080] Activity: Move
+     5 ms [21080] Activity: MoveWithinRange
+     4 ms [21092] Activity: Move
+     4 ms [21092] Activity: MoveWithinRange
+     4 ms [21097] Activity: Move
+     4 ms [21097] Activity: MoveWithinRange
+     6 ms [21101] Trait: e1->RevealsShroud
+     4 ms [21108] Activity: Move
+     4 ms [21108] Activity: MoveWithinRange
+     4 ms [21123] Activity: Move
+     4 ms [21123] Activity: MoveWithinRange
+     5 ms [21127] Activity: Move
+     5 ms [21127] Activity: MoveWithinRange
+     4 ms [21130] Activity: Move
+     4 ms [21130] Activity: MoveWithinRange
+     4 ms [21158] Activity: Move
+     4 ms [21158] Activity: MoveWithinRange
+     4 ms [21158] Activity: Move
+     4 ms [21158] Activity: MoveWithinRange
+     3 ms [21158] Activity: Move
+     4 ms [21158] Activity: MoveWithinRange
+     6 ms [21184] Trait: e1->RevealsShroud
+     2 ms [21192] Activity: Move
+     2 ms [21192] Activity: MoveWithinRange
+     2 ms [21194] Activity: Move
+     2 ms [21194] Activity: MoveWithinRange
+     2 ms [21194] Activity: Move
+     2 ms [21194] Activity: MoveWithinRange
+     2 ms [21212] Activity: Move
+     2 ms [21212] Activity: MoveWithinRange
+     2 ms [21212] Activity: Move
+     2 ms [21212] Activity: MoveWithinRange
+     2 ms [21222] Activity: Move
+     2 ms [21222] Activity: MoveWithinRange
+     1 ms [21231] Activity: Move
+     1 ms [21231] Activity: MoveWithinRange
+     1 ms [21249] Activity: Move
+     1 ms [21249] Activity: MoveWithinRange
+     2 ms [21251] Activity: Move
+     2 ms [21251] Activity: MoveWithinRange
+     1 ms [21254] Activity: Move
+     2 ms [21254] Activity: MoveWithinRange
+     1 ms [21256] Activity: Move
+     1 ms [21256] Activity: MoveWithinRange
+     7 ms [21268] Activity: MoveFirstHalf
+     7 ms [21268] Activity: MoveWithinRange
+     1 ms [21273] Activity: Move
+     1 ms [21273] Activity: MoveWithinRange
+     1 ms [21275] Activity: Move
+     1 ms [21275] Activity: MoveWithinRange
+     1 ms [21280] Activity: Move
+     1 ms [21280] Activity: MoveWithinRange
+     1 ms [21284] Activity: Move
+     1 ms [21284] Activity: MoveWithinRange
+     1 ms [21286] Activity: Move
+     1 ms [21286] Activity: MoveWithinRange
+     1 ms [21300] Activity: Move
+     1 ms [21300] Activity: MoveWithinRange
+     1 ms [21302] Activity: Move
+     1 ms [21302] Activity: MoveWithinRange
+     1 ms [21309] Activity: Move
+     1 ms [21309] Activity: MoveWithinRange
+     1 ms [21313] Activity: Move
+     1 ms [21313] Activity: MoveWithinRange
+     1 ms [21317] Activity: Move
+     1 ms [21317] Activity: MoveWithinRange
+     1 ms [21325] Activity: Move
+     1 ms [21325] Activity: MoveWithinRange
+     1 ms [21336] Activity: Move
+     1 ms [21336] Activity: MoveWithinRange
+    11 ms [21343] Activity: Move
+    11 ms [21343] Activity: MoveWithinRange
+     1 ms [21347] Activity: Move
+     1 ms [21347] Activity: MoveWithinRange
+     1 ms [21362] Activity: Move
+     1 ms [21362] Activity: MoveWithinRange
+     4 ms [21362] Activity: Move
+     4 ms [21362] Activity: MoveWithinRange
+     1 ms [21381] Activity: Move
+     1 ms [21381] Activity: MoveWithinRange
+     1 ms [21392] Activity: Move
+     1 ms [21392] Activity: MoveWithinRange
+     1 ms [21397] Activity: Move
+     1 ms [21397] Activity: MoveWithinRange
+     1 ms [21402] Activity: Move
+     1 ms [21402] Activity: MoveWithinRange
+     2 ms [21411] Effect: Missile
+     1 ms [21434] Activity: Move
+     1 ms [21434] Activity: MoveWithinRange
+     7 ms [21437] Trait: player->ClassicProductionQueue
+     1 ms [21444] Trait: player->HackyAI
+     1 ms [21451] Activity: Move
+     1 ms [21451] Activity: MoveWithinRange
+     1 ms [21466] Activity: Move
+     1 ms [21466] Activity: MoveWithinRange
+     1 ms [21494] Activity: Move
+     1 ms [21494] Activity: MoveWithinRange
+     1 ms [21516] Activity: MoveWithinRange
+     7 ms [21519] Activity: Move
+     7 ms [21519] Activity: MoveWithinRange
+     8 ms [21603] Activity: Attack
+     1 ms [21624] Trait: player->HackyAI
+     6 ms [21694] Activity: Attack
+     7 ms [21778] Trait: player->FrozenActorLayer
+     8 ms [21872] Trait: player->PlayerResources
+     6 ms [21963] Effect: Bullet
+     7 ms [22003] Trait: player->ConquestVictoryConditions
+     4 ms [22003] Trait: player->ConquestVictoryConditions
+     2 ms [22008] Trait: player->HackyAI
+     2 ms [22012] Trait: player->HackyAI
+     1 ms [22013] Activity: CallFunc
+     1 ms [22054] Activity: Move
+     1 ms [22077] Activity: Move
+     1 ms [22127] Activity: Move
+     1 ms [22203] Trait: jeep->RevealsShroud
+     1 ms [22264] Activity: FindResources
+     2 ms [22283] Activity: Move
+     1 ms [22322] Activity: Move
+     1 ms [22369] Activity: Move
+     1 ms [22415] Activity: Move
+     1 ms [22470] Activity: Move
+     5 ms [22482] Trait: player->HackyAI
+     1 ms [22509] Activity: Move
+     4 ms [22566] Activity: FindResources

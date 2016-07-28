@@ -1,0 +1,3 @@
+C:\Users\Administrator\Documents\OpenRa_GA\bin\Release\Optimization1D.exe.config
+C:\Users\Administrator\Documents\OpenRa_GA\obj\Release\OpenRa_GA.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\OpenRa_GA\obj\Release\OpenRa_GA.csproj.GenerateResource.Cache

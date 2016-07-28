@@ -1,0 +1,16210 @@
+Map loaded with name Forest Path
+HandshakeResponse : Handshake:
+	Mod: ra
+	Version: {DEV_VERSION}
+	Password:
+
+Client:
+	Index: 0
+	PreferredColor: 8CFF69
+	Color: 8CFF69
+	Faction: Random
+	SpawnPoint: 0
+	Name: Newbie
+	IpAddress:
+	State: Invalid
+	Team: 0
+	Slot:
+	Bot:
+	BotControllerClientIndex: 0
+	IsAdmin: False
+
+
+Pong : 25846
+
+Command : state NotReady
+
+Command : spectate
+
+Command : slot_bot Multi0 0 GA_86
+
+Command : slot_bot Multi1 0 Rush AI
+
+Command : startgame
+
+Pong : 30590
+
+DeployTransform : 
+
+DeployTransform : 
+
+Move : 
+
+Move : 
+
+DeployTransform : 
+
+DeployTransform : 
+
+StartProduction : powr
+
+StartProduction : powr
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : proc
+
+StartProduction : proc
+
+Pong : 35679
+
+Pong : 41063
+
+Pong : 46506
+
+Pong : 51555
+
+Pong : 56574
+
+Pong : 61794
+
+Pong : 66975
+
+Pong : 71985
+
+PlaceBuilding : proc
+
+PlaceBuilding : proc
+
+Harvest : 
+
+Harvest : 
+
+StartProduction : powr
+
+StartProduction : powr
+
+Pong : 76988
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : powr
+
+StartProduction : weap
+
+PlaceBuilding : powr
+
+StartProduction : tent
+
+Pong : 82121
+
+PlaceBuilding : tent
+
+PlaceBuilding : tent
+
+StartProduction : proc
+
+StartProduction : e1
+
+StartProduction : gun
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : gun
+
+PlaceBuilding : gun
+
+StartProduction : gun
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 87162
+
+PlaceBuilding : weap
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : kenn
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : tsla
+
+StartProduction : apc
+
+PlaceBuilding : kenn
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : dome
+
+StartProduction : dog
+
+StartProduction : dog
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : dog
+
+PlaceBuilding : proc
+
+PlaceBuilding : proc
+
+PlaceBuilding : gun
+
+StartProduction : powr
+
+Harvest : 
+
+StartProduction : pbox
+
+Pong : 92447
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : powr
+
+StartProduction : dome
+
+StartProduction : ftrk
+
+StartProduction : dog
+
+PlaceBuilding : pbox
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : pbox
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 97511
+
+PlaceBuilding : pbox
+
+PlaceBuilding : pbox
+
+Harvest : 
+
+Pong : 102515
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : tsla
+
+Pong : 107767
+
+StartProduction : e1
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+StartProduction : ftrk
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : dome
+
+StartProduction : powr
+
+StartProduction : agun
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : weap
+
+Pong : 112785
+
+PlaceBuilding : agun
+
+StartProduction : agun
+
+StartProduction : agun
+
+PlaceBuilding : dome
+
+StartProduction : apwr
+
+StartProduction : sam
+
+Pong : 118100
+
+StartProduction : ftrk
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : agun
+
+Pong : 123552
+
+PlaceBuilding : apwr
+
+StartProduction : proc
+
+Pong : 128907
+
+PlaceBuilding : weap
+
+StartProduction : fix
+
+PlaceBuilding : sam
+
+StartProduction : jeep
+
+StartProduction : v2rl
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : agun
+
+Pong : 134158
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : jeep
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 139159
+
+StartProduction : 1tnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : fix
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 144160
+
+StartProduction : v2rl
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 149189
+
+PlaceBuilding : proc
+
+PlaceBuilding : proc
+
+StartProduction : proc
+
+Harvest : 
+
+PlaceBuilding : apwr
+
+PlaceBuilding : apwr
+
+StartProduction : pbox
+
+StartProduction : apwr
+
+Harvest : 
+
+Harvest : 
+
+StartProduction : arty
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 154523
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : v2rl
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 159634
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : pbox
+
+PlaceBuilding : pbox
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : gun
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+StartProduction : powr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : proc
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Harvest : 
+
+SetRallyPoint : 
+
+Stop : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+StartProduction : barr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+StartProduction : dog
+
+Attack : 
+
+Pong : 164957
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : ftrk
+
+Attack : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+PlaceBuilding : barr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : ftur
+
+PlaceBuilding : powr
+
+StartProduction : atek
+
+StartProduction : jeep
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 170080
+
+PlaceBuilding : gun
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+Pong : 175388
+
+StartProduction : ftrk
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : apwr
+
+StartProduction : fix
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+StartProduction : 2tnk
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : ftur
+
+StartProduction : ftur
+
+Pong : 180514
+
+StartProduction : e4
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 185519
+
+Pong : 190526
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apc
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : ftur
+
+StartProduction : e2
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : jeep
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : atek
+
+StartProduction : e1
+
+StartProduction : powr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 195584
+
+PlaceBuilding : fix
+
+PlaceBuilding : fix
+
+StartProduction : powr
+
+StartProduction : e2
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+StartProduction : v2rl
+
+SetRallyPoint : 
+
+StartProduction : stnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+Pong : 200724
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : apwr
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 205727
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e2
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 210837
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e2
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : apc
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e4
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : stek
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : stek
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+PlaceBuilding : apwr
+
+StartProduction : proc
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 215954
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : e1
+
+StartProduction : e1
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e2
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Pong : 221094
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : e1
+
+StartProduction : 2tnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : harv
+
+StartProduction : e4
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Pong : 226099
+
+StartProduction : e2
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : proc
+
+PlaceBuilding : proc
+
+StartProduction : powr
+
+StartProduction : proc
+
+Harvest : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : 2tnk
+
+Move : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+PlaceBuilding : stek
+
+StartProduction : sam
+
+StartProduction : shok
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : arty
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 231104
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : v2rl
+
+Harvest : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Harvest : 
+
+Harvest : 
+
+StartProduction : e2
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 2tnk
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : proc
+
+PlaceBuilding : proc
+
+Harvest : 
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : dog
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Pong : 236151
+
+PlaceBuilding : apwr
+
+PlaceBuilding : apwr
+
+StartProduction : apwr
+
+Harvest : 
+
+StartProduction : e1
+
+Harvest : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : jeep
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : sam
+
+StartProduction : ftur
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : apwr
+
+StartProduction : powr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : shok
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 241158
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+StartProduction : powr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : harv
+
+StartProduction : e1
+
+StartProduction : gun
+
+StartProduction : e3
+
+Pong : 246302
+
+StartProduction : v2rl
+
+StartProduction : e4
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : ftur
+
+PlaceBuilding : stek
+
+StartProduction : tsla
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : e1
+
+PlaceBuilding : gun
+
+StartProduction : pbox
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Pong : 251305
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+StartProduction : e2
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : pbox
+
+StartProduction : e1
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Harvest : 
+
+Harvest : 
+
+Harvest : 
+
+StartProduction : 1tnk
+
+Pong : 256307
+
+PlaceBuilding : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+Harvest : 
+
+PlaceBuilding : apwr
+
+StartProduction : powr
+
+StartProduction : e2
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : 2tnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 261313
+
+CancelProduction : apwr
+
+StartProduction : powr
+
+Harvest : 
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+StartProduction : stnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 266502
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : ftrk
+
+PlaceBuilding : powr
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : stnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Harvest : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 271704
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 276719
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : harv
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Pong : 281879
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e2
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+StartProduction : 2tnk
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : tsla
+
+StartProduction : tsla
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 286886
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : proc
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : v2rl
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 1tnk
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 291971
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+StartProduction : e2
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : arty
+
+AttackMove : 
+
+StartProduction : e1
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 297111
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+StartProduction : e3
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 302139
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : stnk
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 3tnk
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : tsla
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : tsla
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : dog
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 307240
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e4
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 312589
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : proc
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : powr
+
+Harvest : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Move : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 2tnk
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e4
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Pong : 317857
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : powr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 1tnk
+
+StartProduction : e1
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 322858
+
+Harvest : 
+
+Move : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : tsla
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : e1
+
+StartProduction : e2
+
+StartProduction : 1tnk
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+Move : 
+
+Move : 
+
+Move : 
+
+StartProduction : e1
+
+Pong : 327967
+
+Harvest : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : stnk
+
+StartProduction : e4
+
+StartProduction : e1
+
+StartProduction : ftrk
+
+Harvest : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Pong : 332969
+
+Harvest : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+PlaceBuilding : apwr
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Pong : 338099
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : arty
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 343202
+
+StartProduction : e3
+
+StartProduction : e4
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : harv
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 348213
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : 3tnk
+
+Stop : 
+
+StartProduction : e4
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Pong : 353434
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 358445
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+PlaceBuilding : tsla
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : sam
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : shok
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : arty
+
+StartProduction : harv
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : fix
+
+Harvest : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : dog
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+StartProduction : e3
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Move : 
+
+Move : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Harvest : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 1tnk
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Pong : 363650
+
+Attack : 
+
+Attack : 
+
+StartProduction : e1
+
+StartProduction : e4
+
+Attack : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Attack : 
+
+Attack : 
+
+StartProduction : apwr
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e1
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+PlaceBuilding : sam
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+StartProduction : 2tnk
+
+StartProduction : e1
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+RepairBuilding : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Attack : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Harvest : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Attack : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : sam
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Pong : 368714
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : 1tnk
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e3
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Pong : 373932
+
+CancelProduction : apwr
+
+RepairBuilding : 
+
+Stop : 
+
+StartProduction : dog
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : harv
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Move : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Pong : 378941
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+SetRallyPoint : 
+
+Stop : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+StartProduction : apwr
+
+SetRallyPoint : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+StartProduction : arty
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Move : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : apc
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+PlaceBuilding : fix
+
+Harvest : 
+
+PlaceBuilding : fix
+
+StartProduction : stek
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Pong : 383943
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : 2tnk
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+CancelProduction : apwr
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+StartProduction : 2tnk
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+PlaceBuilding : sam
+
+AttackMove : 
+
+StartProduction : ftur
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Pong : 388954
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+StartProduction : harv
+
+StartProduction : e1
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+AttackMove : 
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+Harvest : 
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Pong : 393961
+
+Harvest : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+Harvest : 
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : stnk
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+RepairBuilding : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : apwr
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Harvest : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+StartProduction : mcv
+
+Stop : 
+
+StartProduction : apc
+
+AttackMove : 
+
+SetRallyPoint : 
+
+Attack : 
+
+SetRallyPoint : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+RepairBuilding : 
+
+RepairBuilding : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+StartProduction : stnk
+
+StartProduction : e1
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+AttackMove : 
+
+CancelProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+StartProduction : apwr
+
+AttackMove : 
+
+StartProduction : e3
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Harvest : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Pong : 398964
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Move : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+AttackMove : 
+
+StartProduction : dog
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+AttackMove : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+RepairBuilding : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+CancelProduction : apwr
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+StartProduction : apwr
+
+StartProduction : apwr
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+Attack : 
+
+RepairBuilding : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+StartProduction : stnk
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+SetRallyPoint : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Stop : 
+
+AttackMove : 
+
+Attack : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+Move : 
+
+CancelProduction : apwr
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
+Harvest : 
+
+CancelProduction : apwr
+
+StartProduction : apwr
+
