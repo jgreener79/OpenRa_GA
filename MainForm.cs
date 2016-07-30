@@ -135,6 +135,24 @@ namespace OpenRa_GA
                 return -1;
             }
         }
+        private Single SQLGetSingle(string SqlStatement)
+        {
+            try
+            {
+                if (conn.State.ToString() == "Closed")
+                {
+                    conn.Open();
+                }
+                string stm = SqlStatement;
+                MySqlCommand cmd = new MySqlCommand(stm, conn);
+                return Convert.ToSingle(cmd.ExecuteScalar());
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.ToString());
+                return -1;
+            }
+        }
         private Boolean SQLExecuteCommand(string SqlStatement){
              try
             {
@@ -766,7 +784,7 @@ namespace OpenRa_GA
             optimizationMode = modeBox.SelectedIndex;
             showOnlyBest = onlyBestCheck.Checked;
             //MessageBox.Show(selectionBox.SelectedItem.ToString());
-            SQLExecuteCommand("Insert Into RunTrack(RunId,StartingNotes) VALUES(" + textBoxRun.Text + ",'Pop=" + Convert.ToString(populationSize) + ", SelectMethod=" + Convert.ToString(selectionBox.SelectedItem.ToString()) + "')");
+            SQLExecuteCommand("Insert Into RunTrack(RunId,StartingNotes) VALUES(" + textBoxRun.Text + ",'faction=russia, SpawnPoint=0, Pop=" + Convert.ToString(populationSize) + ", SelectMethod=" + Convert.ToString(selectionBox.SelectedItem.ToString()) + "')");
             // disable all settings controls except "Stop" button
             EnableControls(false);
 
@@ -906,7 +924,7 @@ namespace OpenRa_GA
                                     //MessageBox.Show(userFunction.Fitresults[GA_member, 0]);
                                     //MessageBox.Show(Convert.ToString(Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost)));
                                     SQLStoreFit(Convert.ToInt16(textBoxRun.Text), Convert.ToInt16(currentIterationBox.Text), userFunction.Fitresults[GA_member, 0], FitValue);
-                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(SQLGetInt("Select AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000) from fitResults where RunId=" + textBoxRun.Text + " and Chromosome='" + userFunction.Fitresults[GA_member, 0] + "'"));
+                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(SQLGetSingle("Select AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000) from fitResults where RunId=" + textBoxRun.Text + " and Chromosome='" + userFunction.Fitresults[GA_member, 0] + "'"));
                                     //Fitness 1 AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000)
 
                                 }
@@ -1214,9 +1232,7 @@ namespace OpenRa_GA
                     SetText(TC, Convert.ToString(getProcessCount(Processes)));
                     FindFitness(population, true);
                     done = true;
-                    try
-                    {
-                        Processes.ForEach(delegate (Process p)
+                    Processes.ForEach(delegate (Process p)
                         {
                             if (p.HasExited == false)
                             {
@@ -1243,11 +1259,7 @@ namespace OpenRa_GA
                             }
                         }
                             );
-                    }
-                    catch
-                    {
-                        done = false;
-                    }
+                    
                     System.Threading.Thread.Sleep(10000);
                 }
                 System.Threading.Thread.Sleep(15000);
@@ -1275,7 +1287,7 @@ namespace OpenRa_GA
                     WorkingDirectory = "C:\\Users\\Administrator\\Documents\\ESU_OpenRA"
                 }
             };
-            process.StartInfo.Arguments = "Launch.Ai=\"GA_" + Convert.ToString(GA_Num) + "\" Launch.MapName=\"Forest Path\" Launch.FitnessLog=\"Run"+ Convert.ToString(textBoxRun.Text)+"_Gen" + Convert.ToString(currentIterationBox.Text) + "GA_" + Convert.ToString(GA_Num) + "_"+Convert.ToString(CopyNum)+"\"";
+            process.StartInfo.Arguments = "Launch.AiFaction = \"russia\" Launch.AiSpawnPoint=\"0\" Launch.Ai=\"GA_" + Convert.ToString(GA_Num) + "\" Launch.MapName=\"Forest Path\" Launch.FitnessLog=\"Run"+ Convert.ToString(textBoxRun.Text)+"_Gen" + Convert.ToString(currentIterationBox.Text) + "GA_" + Convert.ToString(GA_Num) + "_"+Convert.ToString(CopyNum)+"\"";
             process.Start();
             processes.Add(process);
         }
@@ -1332,7 +1344,7 @@ namespace OpenRa_GA
             return  GetFitness(chromosome);
         }
 
-        public int GetFitness(IChromosome chromosome)
+        public Single GetFitness(IChromosome chromosome)
         {
             //pull fitness info from log file based on Chromosome ID(How do I set a static Id for the Chromosome?)
            // throw new NotImplementedException();
@@ -1341,7 +1353,7 @@ namespace OpenRa_GA
             {
                 if (chromosome.ToString() == Fitresults[x, 0])
                 {
-                    return Convert.ToInt16(Convert.ToSingle(Fitresults[x, 1]));
+                    return Convert.ToSingle(Fitresults[x, 1]);
                 }
             }
                 return 1;
