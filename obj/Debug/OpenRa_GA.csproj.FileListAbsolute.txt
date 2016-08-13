@@ -44,7 +44,4 @@ C:\Users\Administrator\Documents\OpenRa_GA\obj\Debug\OpenRa_GA.csproj.GenerateRe
 C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\Optimization1D.exe
 C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\Optimization1D.pdb
 C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\MySql.Data.dll
-C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\AForge.xml
-C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\AForge.Controls.xml
-C:\Users\Administrator\Documents\OpenRa_GA\bin\Debug\AForge.Genetic.xml
 C:\Users\Administrator\Documents\OpenRa_GA\obj\Debug\OpenRa_GA.csprojResolveAssemblyReference.cache

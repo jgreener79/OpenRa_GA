@@ -153,9 +153,46 @@ namespace OpenRa_GA
                 return -1;
             }
         }
+        private List<string> SQLGetRow(string SqlStatement)
+        {
+            List<string> RetValue = new List<string>();
+            MySqlDataReader rdr = null;
+            try
+            {
+                if (conn.State.ToString() == "Closed")
+                {
+                    conn.Open();
+                }
+                string stm = SqlStatement;
+                MySqlCommand cmd = new MySqlCommand(stm, conn);
+                rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    for (int x=0;x<rdr.FieldCount;x++)
+                    {
+                        RetValue.Add(rdr.GetString(x));
+                    }
+                }
+                return RetValue;
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("Error: {0}", ex.ToString());
+                return RetValue;
+            }
+            finally
+            {
+                rdr.Close();
+            }
+        }
         private Boolean SQLExecuteCommand(string SqlStatement){
              try
             {
+                if (conn.State.ToString() == "Closed")
+                {
+                    conn.Open();
+                }
                 string stm = SqlStatement;
                 MySqlCommand cmd = new MySqlCommand(stm, conn);
                 if (cmd.ExecuteNonQuery() == 0)
@@ -173,14 +210,28 @@ namespace OpenRa_GA
                  return false;
              }
         }
-        private Boolean SQLStoreFit(int RunId,int GenId,string Chrome,Single FitValue)
+        private Boolean SQLStoreFit(int RunId,int GenId,string Chrome,Single FitValue,String LogFile)
         {
              //INSERT INTO `mydb`.`fitresults` (`RunId`, `GenId`, `Chromosome`, `FitValue`) VALUES ('0', '0', '01 02 03 04 05 06 07 08 09 10 11 12 ', '3.02753');
             try
             {
-                string stm = "Insert into FitResults(RunId,GenId,Chromosome,FitValue) Values("+Convert.ToString (RunId)+","+Convert.ToString(GenId)+",'"+Chrome+"',"+Convert.ToString(FitValue)+")";
+                if (conn.State.ToString() == "Closed")
+                {
+                    conn.Open();
+                }
+                string stm = "";
+                if (SQLGetInt("Select count(*) from fitresults where RunId=" + Convert.ToString(RunId) + " and GenId=" + Convert.ToString(GenId) + " and R_Log='" + LogFile.Replace("\\", "") + "'") == 0)
+                {
+
+                    stm = "Insert into FitResults(RunId,GenId,Chromosome,FitValue,R_log) Values(" + Convert.ToString(RunId) + "," + Convert.ToString(GenId) + ",'" + Chrome + "'," + Convert.ToString(FitValue) + ",'"+LogFile+"')";
+                    
+                }
+                else
+                {
+                    stm = "Update FitResults set FitValue="+ Convert.ToString(FitValue) + "where  RunId=" + Convert.ToString(RunId) + " and GenId=" + Convert.ToString(GenId) + " and R_Log='" + LogFile.Replace("\\", "") + "'";
+                }
                 MySqlCommand cmd = new MySqlCommand(stm, conn);
-                if (cmd.ExecuteNonQuery() == 0)
+                if (cmd.ExecuteNonQuery() == 1)
                 {
                     return true;
                 }
@@ -750,7 +801,7 @@ namespace OpenRa_GA
             // get population size
             try
             {
-                populationSize = Math.Max(10, Math.Min(100, int.Parse(populationSizeBox.Text)));
+                populationSize = Math.Max(10, Math.Min(1000, int.Parse(populationSizeBox.Text)));
             }
             catch
             {
@@ -784,7 +835,7 @@ namespace OpenRa_GA
             optimizationMode = modeBox.SelectedIndex;
             showOnlyBest = onlyBestCheck.Checked;
             //MessageBox.Show(selectionBox.SelectedItem.ToString());
-            SQLExecuteCommand("Insert Into RunTrack(RunId,StartingNotes) VALUES(" + textBoxRun.Text + ",'faction=russia, SpawnPoint=0, Pop=" + Convert.ToString(populationSize) + ", SelectMethod=" + Convert.ToString(selectionBox.SelectedItem.ToString()) + "')");
+            SQLExecuteCommand("Insert Into RunTrack(RunId,StartingNotes) VALUES(" + textBoxRun.Text + ",'fitness=marmels, faction=russia, SpawnPoint=0, Pop=" + Convert.ToString(populationSize) + ", SelectMethod=" + Convert.ToString(selectionBox.SelectedItem.ToString()) + "')");
             // disable all settings controls except "Stop" button
             EnableControls(false);
 
@@ -923,10 +974,27 @@ namespace OpenRa_GA
                                     //MessageBox.Show(Convert.ToString(Convert.ToInt16(currentIterationBox.Text )));
                                     //MessageBox.Show(userFunction.Fitresults[GA_member, 0]);
                                     //MessageBox.Show(Convert.ToString(Convert.ToSingle(Kill_cost) / Convert.ToSingle(Death_cost)));
-                                    SQLStoreFit(Convert.ToInt16(textBoxRun.Text), Convert.ToInt16(currentIterationBox.Text), userFunction.Fitresults[GA_member, 0], FitValue);
-                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(SQLGetSingle("Select AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000) from fitResults where RunId=" + textBoxRun.Text + " and Chromosome='" + userFunction.Fitresults[GA_member, 0] + "'"));
-                                    //Fitness 1 AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000)
 
+                                    /*t = avg(FitValue) / Stdev(FitValues)
+                                    f = (0.75 + min(0.25, avg(FitValue) / Stdev(FitValues) * 0.025))
+                                    g = 1.001 ^ count
+                                    ((Avg(FitValue) / 1000) * f * 1.001 ^ count(FitValue)*/
+                                    SQLStoreFit(Convert.ToInt16(textBoxRun.Text), Convert.ToInt16(currentIterationBox.Text), userFunction.Fitresults[GA_member, 0], FitValue, myfile);
+                                    List <string> fitRaw= SQLGetRow("Select AVG(FitValue),STD(FitValue),Count(FitValue) from fitResults where RunId=" + textBoxRun.Text + " and Chromosome='" + userFunction.Fitresults[GA_member, 0] + "'");
+                                    if (Convert.ToSingle(fitRaw[1]) == 0)
+                                    {
+                                        fitRaw[1] = "1";
+                                    }
+                                    Single t = Convert.ToSingle(fitRaw[0]) / Convert.ToSingle(fitRaw[1]);
+                                    Single f1 = 1;
+                                    if (t * 0.025 < .25)
+                                    {
+                                        f1 = Convert.ToSingle (0.75) + (t * Convert.ToSingle(0.025));
+                                    }
+                                    Single g = Convert.ToSingle(Math.Pow(Convert.ToSingle(1.001),Convert.ToSingle( fitRaw[2])));
+                                    Single Marmels = (Convert.ToSingle(fitRaw[0]) / 1000) * f1 * g;
+                                    userFunction.Fitresults[GA_member, 1] = Convert.ToString(Marmels);
+                                    //Fitness 1 AVG(FitValue)/STD(FitValue)*(Avg(FitValue)/1000)
                                 }
                             }
                             reader.Close();
@@ -936,7 +1004,10 @@ namespace OpenRa_GA
                                 File.Delete(myfile);
                             }
                         }
-                        catch { }
+                        catch(Exception ex)
+                        {
+                           //MessageBox.Show("FindFitness error:"+ex.ToString());
+                        }
                     }
                     else
                     {
@@ -967,7 +1038,7 @@ namespace OpenRa_GA
                     process.WaitForExit(15000);
                     for (int x = 0; x < populationSize; x++)
                     {
-                        WriteLog("Gen" + Convert.ToString(currentIterationBox.Text) + "FitResults", userFunction.Fitresults[x, 0] + ":" + userFunction.Fitresults[x, 0]);
+                        WriteLog("Gen" + Convert.ToString(currentIterationBox.Text) + "FitResults", userFunction.Fitresults[x, 1] + ":" + userFunction.Fitresults[x, 0]);
                     }
                 }
             }
@@ -993,7 +1064,7 @@ namespace OpenRa_GA
             try
             {
 
-                writer.WriteLine(DateTime.Now.ToString("YYYY/MM/dd H:mm:ss")+ msg);
+                writer.WriteLine(DateTime.Now.ToString("YYYY/MM/dd H:mm:ss")+"|"+ msg);
                 
             }
             catch (InvalidOperationException ex)
@@ -1189,7 +1260,7 @@ namespace OpenRa_GA
                         try
                         {
                             FileInfo f = new FileInfo(@path + "\\Documents\\OpenRA\\Logs\\exception.log");
-                            if (f.Length != 0) { x--; f.Delete(); } //if we caused an exception, retry the last launch and delete the exception file. 
+                            if (f.Length != 0) { repStart++; f.Delete(); } //if we caused an exception, retry the last launch and delete the exception file. 
                         }
                         catch { }
                     }
@@ -1198,30 +1269,34 @@ namespace OpenRa_GA
                     while (getProcessCount(Processes) > Convert.ToInt16(MaxCThread.Text))
                     {
                         System.Threading.Thread.Sleep(10000);
-                        Processes.ForEach(delegate (Process p)
+                        try
                         {
-                            if (p.HasExited == false)
+                            for (int pcnt = Processes.Count-1; pcnt > 0; pcnt--)
                             {
-                                //MessageBox.Show(p.StartInfo.Arguments+"\n"+Convert.ToString(p.HasExited)+":"+Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
-                                if (DateTime.Now.Subtract(p.StartTime).TotalMinutes  > 45)
+                                
+                                if (Processes[pcnt].HasExited == false)
                                 {
-                                    Regex logs = new Regex(@"GA_(\d+)");
-                                    Match match = logs.Match(p.StartInfo.Arguments);
-                                    p.Kill();
-                                    if (match.Success)
+                                    //MessageBox.Show(Processes[pcnt].StartInfo.Arguments+"\n"+Convert.ToString(Processes[pcnt].HasExited)+":"+Convert.ToString(DateTime.Now.Subtract(Processes[pcnt].StartTime).Minutes));
+                                    if (DateTime.Now.Subtract(Processes[pcnt].StartTime).TotalMinutes > 45)
                                     {
-                                        int GA_number= int.Parse(match.Groups[1].Value);
-                                        if (Convert.ToInt16(userFunction.Fitresults[GA_number,2])<3)
+                                        Regex logs = new Regex(@"GA_(\d+)");
+                                        Match match = logs.Match(Processes[pcnt].StartInfo.Arguments);
+                                        Processes[pcnt].Kill();
+                                        if (match.Success)
                                         {
-                                            StartGA(Processes, GA_number,-1);
+                                            int GA_number = int.Parse(match.Groups[1].Value);
+                                            if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+                                            {
+                                                StartGA(Processes, GA_number, -1);
+                                            }
                                         }
                                     }
-                                }
-                                
-                            }
 
+                                }
+
+                            }
                         }
-                        );
+                        finally { }
                     }
                     FindFitness(population);
                 }
@@ -1230,40 +1305,44 @@ namespace OpenRa_GA
                 while (done == false)
                 {
                     SetText(TC, Convert.ToString(getProcessCount(Processes)));
-                    FindFitness(population, true);
+                    //FindFitness(population, true);
                     done = true;
-                    Processes.ForEach(delegate (Process p)
-                        {
-                            if (p.HasExited == false)
+                    try
+                    {
+                        Processes.ForEach(delegate (Process p)
                             {
-                                done = false;
-                            //MessageBox.Show(p.StartInfo.Arguments + "\n" + Convert.ToString(p.HasExited) + ":" + Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
-                            if (DateTime.Now.Subtract(p.StartTime).TotalMinutes > 45)
+                                if (p.HasExited == false)
                                 {
-
-                                    Regex logs = new Regex(@"GA_(\d+)");
-                                    Match match = logs.Match(p.StartInfo.Arguments);
-                                    p.Kill();
-                                    if (match.Success)
+                                    done = false;
+                                //MessageBox.Show(p.StartInfo.Arguments + "\n" + Convert.ToString(p.HasExited) + ":" + Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));
+                                if (DateTime.Now.Subtract(p.StartTime).TotalMinutes > 45)
                                     {
-                                        int GA_number = int.Parse(match.Groups[1].Value);
-                                        if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+
+                                        Regex logs = new Regex(@"GA_(\d+)");
+                                        Match match = logs.Match(p.StartInfo.Arguments);
+                                        p.Kill();
+                                        if (match.Success)
                                         {
-                                            StartGA(Processes, GA_number, -2);
+                                            int GA_number = int.Parse(match.Groups[1].Value);
+                                            if (Convert.ToInt16(userFunction.Fitresults[GA_number, 2]) < 3)
+                                            {
+                                                StartGA(Processes, GA_number, -2);
+                                            }
                                         }
                                     }
+                                /*MessageBox.Show(p.StartInfo.Arguments);
+                                MessageBox.Show(Convert.ToString(p.HasExited));
+                                MessageBox.Show(Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));*/
                                 }
-                            /*MessageBox.Show(p.StartInfo.Arguments);
-                            MessageBox.Show(Convert.ToString(p.HasExited));
-                            MessageBox.Show(Convert.ToString(DateTime.Now.Subtract(p.StartTime).Minutes));*/
                             }
-                        }
-                            );
+                                );
+                    }
+                    finally { }
                     
                     System.Threading.Thread.Sleep(10000);
                 }
                 System.Threading.Thread.Sleep(15000);
-                FindFitness(population,true);
+                //FindFitness(population,true);
             }
             catch (Win32Exception ex)
             {
@@ -1271,7 +1350,7 @@ namespace OpenRa_GA
                 Console.WriteLine(ex.Message);
             }
             // processes = Process.GetProcessesByName("OpenRa");
-
+            FindFitness(population, true);
             //process.HasExited
 
         }
@@ -1329,7 +1408,7 @@ namespace OpenRa_GA
     public class UserFunction : IFitnessFunction
 	{
         public const int Min =0;
-        public const int Max = 100;
+        public const int Max = 1000;
         public const int length = 12;//genecount
         public int popSize;
         public string[,] Fitresults; //chromo string,fitresults
